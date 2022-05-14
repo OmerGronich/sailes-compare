@@ -2,115 +2,71 @@
   <q-layout view="lHh Lpr lFf">
     <q-header elevated>
       <q-toolbar>
-        <q-btn
-          flat
-          dense
-          round
-          icon="menu"
-          aria-label="Menu"
-          @click="toggleLeftDrawer"
-        />
-
-        <q-toolbar-title>
-          Quasar App
-        </q-toolbar-title>
-
-        <div>Quasar v{{ $q.version }}</div>
+        <q-toolbar-title> Sailes Compare </q-toolbar-title>
       </q-toolbar>
     </q-header>
-
-    <q-drawer
-      v-model="leftDrawerOpen"
-      show-if-above
-      bordered
-    >
-      <q-list>
-        <q-item-label
-          header
-        >
-          Essential Links
-        </q-item-label>
-
-        <EssentialLink
-          v-for="link in essentialLinks"
-          :key="link.title"
-          v-bind="link"
-        />
-      </q-list>
-    </q-drawer>
-
     <q-page-container>
-      <router-view />
+      <div class="q-pa-md" dir="rtl">
+        <q-stepper
+          v-model="currentStepName"
+          ref="stepper"
+          color="primary"
+          animated
+        >
+          <q-step
+            v-for="step in steps"
+            :key="step.name"
+            :name="step.name"
+            :title="step.title"
+            :icon="step.icon"
+            :done="step > 1"
+          >
+            <router-view></router-view>
+          </q-step>
+          <template v-slot:navigation>
+            <q-stepper-navigation>
+              <q-btn
+                @click="goToNextStep($refs)"
+                color="primary"
+                :label="currentStepName === 4 ? 'סיים' : 'המשך'"
+              />
+              <q-btn
+                v-if="currentStepName > 1"
+                flat
+                color="primary"
+                @click="goToPreviousStep($refs)"
+                label="Back"
+                class="q-ml-sm"
+              />
+            </q-stepper-navigation>
+          </template>
+        </q-stepper>
+      </div>
     </q-page-container>
   </q-layout>
 </template>
 
 <script lang="ts">
-import { defineComponent, ref } from 'vue';
-import EssentialLink from 'components/EssentialLink.vue';
-
-const linksList = [
-  {
-    title: 'Docs',
-    caption: 'quasar.dev',
-    icon: 'school',
-    link: 'https://quasar.dev'
-  },
-  {
-    title: 'Github',
-    caption: 'github.com/quasarframework',
-    icon: 'code',
-    link: 'https://github.com/quasarframework'
-  },
-  {
-    title: 'Discord Chat Channel',
-    caption: 'chat.quasar.dev',
-    icon: 'chat',
-    link: 'https://chat.quasar.dev'
-  },
-  {
-    title: 'Forum',
-    caption: 'forum.quasar.dev',
-    icon: 'record_voice_over',
-    link: 'https://forum.quasar.dev'
-  },
-  {
-    title: 'Twitter',
-    caption: '@quasarframework',
-    icon: 'rss_feed',
-    link: 'https://twitter.quasar.dev'
-  },
-  {
-    title: 'Facebook',
-    caption: '@QuasarFramework',
-    icon: 'public',
-    link: 'https://facebook.quasar.dev'
-  },
-  {
-    title: 'Quasar Awesome',
-    caption: 'Community Quasar projects',
-    icon: 'favorite',
-    link: 'https://awesome.quasar.dev'
-  }
-];
+import { defineComponent } from 'vue';
+import { storeToRefs }                   from 'pinia';
+import { useStepperStore } from 'stores/stepper-store';
 
 export default defineComponent({
   name: 'MainLayout',
 
-  components: {
-    EssentialLink
-  },
+  components: {},
 
-  setup () {
-    const leftDrawerOpen = ref(false)
+  setup() {
+    const stepperStore = useStepperStore();
+    const { currentStepName, steps } = storeToRefs(stepperStore);
+    const { goToPreviousStep, goToNextStep } = stepperStore;
 
     return {
-      essentialLinks: linksList,
-      leftDrawerOpen,
-      toggleLeftDrawer () {
-        leftDrawerOpen.value = !leftDrawerOpen.value
-      }
-    }
-  }
+      goToPreviousStep,
+      goToNextStep,
+      currentStepName,
+      steps,
+    };
+  },
 });
 </script>
