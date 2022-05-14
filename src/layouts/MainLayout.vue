@@ -19,22 +19,22 @@
             :name="step.name"
             :title="step.title"
             :icon="step.icon"
-            :done="step > 1"
+            :done="step.name < currentStepName"
           >
             <router-view></router-view>
           </q-step>
           <template v-slot:navigation>
             <q-stepper-navigation>
               <q-btn
-                @click="goToNextStep($refs)"
+                @click="goToNextStep($refs, router)"
                 color="primary"
-                :label="currentStepName === 4 ? 'סיים' : 'המשך'"
+                :label="currentStepName === steps.length ? 'סיים' : 'המשך'"
               />
               <q-btn
                 v-if="currentStepName > 1"
                 flat
                 color="primary"
-                @click="goToPreviousStep($refs)"
+                @click="goToPreviousStep($refs, router)"
                 label="Back"
                 class="q-ml-sm"
               />
@@ -48,8 +48,10 @@
 
 <script lang="ts">
 import { defineComponent } from 'vue';
-import { storeToRefs }                   from 'pinia';
+import { storeToRefs } from 'pinia';
 import { useStepperStore } from 'stores/stepper-store';
+import { useRouter } from 'vue-router';
+import { onMounted } from 'vue';
 
 export default defineComponent({
   name: 'MainLayout',
@@ -57,15 +59,22 @@ export default defineComponent({
   components: {},
 
   setup() {
+    const router = useRouter();
     const stepperStore = useStepperStore();
     const { currentStepName, steps } = storeToRefs(stepperStore);
-    const { goToPreviousStep, goToNextStep } = stepperStore;
+    const { goToPreviousStep, goToNextStep, initCurrentStepName } =
+      stepperStore;
+
+    onMounted(() => {
+      initCurrentStepName(router);
+    });
 
     return {
       goToPreviousStep,
       goToNextStep,
       currentStepName,
       steps,
+      router,
     };
   },
 });
