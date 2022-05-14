@@ -1,5 +1,5 @@
 import { defineStore } from 'pinia';
-import { useRouter }   from 'vue-router';
+import { useRouter } from 'vue-router';
 
 export const useStepperStore = defineStore('stepper', {
   state: () => ({
@@ -9,17 +9,26 @@ export const useStepperStore = defineStore('stepper', {
       { title: 'טבלה', icon: 'table_chart', name: 2 },
       { title: 'צ׳ארט', icon: 'insert_chart', name: 3 },
     ],
+    data: {},
   }),
   getters: {},
   actions: {
-    goToNextStep($refs: {readonly stepper: {next: () => void} & HTMLElement, [p: string]: unknown}) {
+    goToNextStep($refs: {
+      readonly stepper: { next: () => void } & HTMLElement;
+      [p: string]: unknown;
+    }) {
       const router = useRouter();
-      router.push('shtok')
+      router.push('shtok');
       $refs.stepper.next();
     },
-    goToPreviousStep($refs: {readonly stepper: {previous: () => void} & HTMLElement, [p: string]: unknown}) {
+    goToPreviousStep($refs: {
+      readonly stepper: { previous: () => void } & HTMLElement;
+      [p: string]: unknown;
+    }) {
       $refs.stepper.previous();
-    }
+    },
+    setFunds(funds: any) {
+      this.data = funds;
+    },
   },
 });
-
