@@ -1,20 +1,25 @@
 import { RouteRecordRaw } from 'vue-router';
+import { Routes }         from 'stores/stepper-store';
 
 const routes: RouteRecordRaw[] = [
   {
-    path: '/',
     component: () => import('layouts/MainLayout.vue'),
+    path: '/',
     children: [
       {
-        path: '',
+        path: '/',
+        component: () => import('pages/GettingStarted.vue')
+      },
+      {
+        path: Routes.SelectCompany,
         component: () => import('pages/SelectCompany.vue')
       },
       {
-        path: '/select-funds',
+        path: Routes.SelectFunds,
         component: () => import('pages/SelectFunds.vue')
       },
       {
-        path: '/fund-comparison',
+        path: Routes.FundComparison,
         component: () => import('pages/FundComparison.vue')
       },
     ],

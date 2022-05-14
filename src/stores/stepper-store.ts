@@ -8,10 +8,16 @@ interface Step {
   path: string;
 }
 
+export enum Routes {
+  SelectCompany = '/select-company',
+  SelectFunds = '/select-funds',
+  FundComparison = '/fund-comparison'
+}
+
 const steps: Step[] = [
-  { title: 'בחר חברה', icon: 'work', name: 1, path: '/' },
-  { title: 'טבלה', icon: 'table_chart', name: 2, path: '/select-funds' },
-  { title: 'צ׳ארט', icon: 'insert_chart', name: 3, path: '/fund-comparison' },
+  { title: 'בחר חברה', icon: 'work', name: 1, path: Routes.SelectCompany },
+  { title: 'טבלה', icon: 'table_chart', name: 2, path: Routes.SelectFunds },
+  { title: 'צ׳ארט', icon: 'insert_chart', name: 3, path: Routes.FundComparison },
 ];
 
 export const useStepperStore = defineStore('stepper', {

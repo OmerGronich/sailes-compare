@@ -2,11 +2,21 @@
   <q-layout view="lHh Lpr lFf">
     <q-header elevated>
       <q-toolbar>
-        <q-toolbar-title> Sailes Compare </q-toolbar-title>
+        <q-toolbar-title>
+          <q-btn flat icon='home' label="סיילס השוואות" @click="router.push('/')" />
+        </q-toolbar-title>
+
       </q-toolbar>
     </q-header>
     <q-page-container>
-      <div class="q-pa-md" dir="rtl">
+      <div
+        v-if="router.currentRoute.value.path === '/'"
+        class="q-pa-md"
+        dir="rtl"
+      >
+        <router-view></router-view>
+      </div>
+      <div v-else class="q-pa-md">
         <q-stepper
           v-model="currentStepName"
           ref="stepper"
@@ -21,7 +31,7 @@
             :icon="step.icon"
             :done="step.name < currentStepName"
           >
-            <router-view></router-view>
+              <router-view />
           </q-step>
           <template v-slot:navigation>
             <q-stepper-navigation>
@@ -56,7 +66,8 @@ import { onMounted } from 'vue';
 export default defineComponent({
   name: 'MainLayout',
 
-  components: {},
+  components: {
+  },
 
   setup() {
     const router = useRouter();
@@ -66,6 +77,7 @@ export default defineComponent({
       stepperStore;
 
     onMounted(() => {
+      console.log(router.currentRoute.value.path);
       initCurrentStepName(router);
     });
 
