@@ -1,9 +1,9 @@
 import { defineStore } from 'pinia';
-import { useRouter }   from 'vue-router';
+import { useRouter } from 'vue-router';
 
 export const useStepperStore = defineStore('stepper', {
   state: () => ({
-    currentStepName: 1,
+    currentStepName: 2,
     steps: [
       { title: 'בחר חברה', icon: 'work', name: 1 },
       { title: 'טבלה', icon: 'table_chart', name: 2 },
@@ -12,14 +12,19 @@ export const useStepperStore = defineStore('stepper', {
   }),
   getters: {},
   actions: {
-    goToNextStep($refs: {readonly stepper: {next: () => void} & HTMLElement, [p: string]: unknown}) {
+    goToNextStep($refs: {
+      readonly stepper: { next: () => void } & HTMLElement;
+      [p: string]: unknown;
+    }) {
       const router = useRouter();
-      router.push('shtok')
+      router.push('shtok');
       $refs.stepper.next();
     },
-    goToPreviousStep($refs: {readonly stepper: {previous: () => void} & HTMLElement, [p: string]: unknown}) {
+    goToPreviousStep($refs: {
+      readonly stepper: { previous: () => void } & HTMLElement;
+      [p: string]: unknown;
+    }) {
       $refs.stepper.previous();
-    }
+    },
   },
 });
-
