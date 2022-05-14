@@ -1,30 +1,58 @@
 import { defineStore } from 'pinia';
-import { useRouter } from 'vue-router';
+import { Router } from 'vue-router';
+
+interface Step {
+  title: string;
+  icon: string;
+  name: number;
+  path: string;
+}
+
+const steps: Step[] = [
+  { title: 'בחר חברה', icon: 'work', name: 1, path: '/' },
+  { title: 'טבלה', icon: 'table_chart', name: 2, path: '/select-funds' },
+  { title: 'צ׳ארט', icon: 'insert_chart', name: 3, path: '/fund-comparison' },
+];
 
 export const useStepperStore = defineStore('stepper', {
   state: () => ({
-    currentStepName: 2,
-    steps: [
-      { title: 'בחר חברה', icon: 'work', name: 1 },
-      { title: 'טבלה', icon: 'table_chart', name: 2 },
-      { title: 'צ׳ארט', icon: 'insert_chart', name: 3 },
-    ],
+    currentStepName: 1,
+    steps,
   }),
   getters: {},
   actions: {
-    goToNextStep($refs: {
-      readonly stepper: { next: () => void } & HTMLElement;
-      [p: string]: unknown;
-    }) {
-      const router = useRouter();
-      router.push('shtok');
-      $refs.stepper.next();
+    initCurrentStepName(router: Router) {
+      const step = steps.find(
+        (step) => router.currentRoute.value.path === step.path
+      );
+      this.currentStepName = step?.name ?? 1;
     },
-    goToPreviousStep($refs: {
-      readonly stepper: { previous: () => void } & HTMLElement;
-      [p: string]: unknown;
-    }) {
+    goToNextStep(
+      $refs: {
+        readonly stepper: { next: () => void } & HTMLElement;
+        [p: string]: unknown;
+      },
+      router: Router
+    ) {
+      $refs.stepper.next();
+      this.navigateToStep(router);
+    },
+    goToPreviousStep(
+      $refs: {
+        readonly stepper: { previous: () => void } & HTMLElement;
+        [p: string]: unknown;
+      },
+      router: Router
+    ) {
       $refs.stepper.previous();
+      this.navigateToStep(router);
+    },
+    navigateToStep(router: Router) {
+      const stepIndex = this.steps.findIndex(
+        (step) => step.name === this.currentStepName
+      );
+      const to = this.steps[stepIndex].path;
+      router.push(to);
     },
   },
 });
