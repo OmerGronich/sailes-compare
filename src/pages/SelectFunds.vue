@@ -1,17 +1,11 @@
-<template>
-  <q-page class="row items-center justify-evenly">
-    select funds
-  </q-page>
-</template>
+<template><TableView /></template>
 
 <script lang="ts">
 import { defineComponent } from 'vue';
+import TableView from '../components/Table/TableView.vue';
 
 export default defineComponent({
   name: 'SelectFunds',
-  components: {  },
-  setup () {
-    console.log('select fund')
-  }
+  components: { TableView },
 });
 </script>
