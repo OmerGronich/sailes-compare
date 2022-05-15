@@ -1,5 +1,6 @@
 import { defineStore } from 'pinia';
 import { Router } from 'vue-router';
+import { useDataStore } from 'stores/data-store';
 
 interface Step {
   title: string;
@@ -15,11 +16,10 @@ const steps: Step[] = [
 ];
 
 export const useStepperStore = defineStore('stepper', {
-  state: () => ({
-    currentStepName: 1,
-    steps,
-    data: {},
-  }),
+  state: () => {
+    const dataStore = useDataStore();
+    return { currentStepName: 1, steps, data: dataStore.data };
+  },
   getters: {},
   actions: {
     initCurrentStepName(router: Router) {
@@ -54,9 +54,6 @@ export const useStepperStore = defineStore('stepper', {
       );
       const to = this.steps[stepIndex].path;
       router.push(to);
-    },
-    setFunds(funds: any) {
-      this.data = funds;
     },
   },
 });
