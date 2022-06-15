@@ -1,0 +1,28 @@
+.row {
+	position: relative;
+	height: 46px;
+	line-height: 36px;
+	cursor: pointer;
+	font-size: 13px;
+	color: #5b6372;
+	display: flex;
+	flex-shrink: 0;
+	padding-left: 2px;
+	width: 100%;
+
+	&:hover {
+		background: #fff4f4f8;
+	}
+}
+
+.content {
+	display: flex;
+	align-items: center;
+	margin-right: 6px;
+	margin-left: 12px;
+}
+
+.title {
+	font-weight: 600;
+	margin-left: 6px;
+}

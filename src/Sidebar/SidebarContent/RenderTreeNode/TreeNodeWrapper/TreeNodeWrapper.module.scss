@@ -1,0 +1,31 @@
+@import '../../../../style_styleguide_react/colors.scss';
+@import '../../../../style_styleguide_react/fonts.scss';
+
+.treeNode {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	box-sizing: border-box;
+	height: 100%;
+	padding-left: 14px;
+}
+
+.menuIcon {
+	border-radius: 50% !important;
+	color: $foreHeader !important;
+	&:hover {
+		background: rgba($lineSeparator, 0.4) !important;
+	}
+}
+
+.menuWrapper {
+	width: 100%;
+	height: 100%;
+}
+
+.emptyFolderContainer {
+	color: $fore;
+	height: 32px;
+	line-height: 32px;
+	padding-left: 38px;
+}

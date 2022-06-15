@@ -1,0 +1,12 @@
+@import '../../style_styleguide_react/colors.scss';
+
+.treeContainer {
+	position: relative;
+	height: 100vh; // The height is IMPORTANT!!! Without it you cannot drag items with children
+	overflow: scroll;
+	padding-bottom: 100px;
+	width: 100%;
+	&.footerPadding {
+		padding-bottom: 200px;
+	}
+}

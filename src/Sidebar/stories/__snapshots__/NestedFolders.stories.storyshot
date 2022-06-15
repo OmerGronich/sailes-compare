@@ -1,0 +1,3230 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Components/Sidebar Nested Folders 1`] = `
+<div>
+  <ul
+    className="themeBar filter"
+  >
+    <li
+      className="tab selected"
+      onClick={[Function]}
+    >
+      Default Theme
+    </li>
+    <li
+      className="tab"
+      onClick={[Function]}
+    >
+      Custom Theme
+    </li>
+  </ul>
+  <div
+    className="component"
+  />
+  <div
+    className="sidebar sidebar"
+  >
+    <div
+      className="container"
+    >
+      <span
+        className="text title"
+      >
+        Dashboards
+      </span>
+      <div
+        className="iconsContainer"
+      >
+        <span
+          className="app-icon app-icon--general-search-small clickable"
+          disabled={false}
+          name="general-search-small"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+          onMouseLeave={[Function]}
+        >
+          <svg
+            className="app-icon__svg"
+            style={
+              Object {
+                "top": "auto",
+              }
+            }
+          >
+            <use
+              xlinkHref="#general-search-small"
+            />
+          </svg>
+        </span>
+        <span
+          className="app-icon app-icon--general-selected clickable"
+          disabled={false}
+          name="general-selected"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+          onMouseLeave={[Function]}
+        >
+          <svg
+            className="app-icon__svg"
+            style={
+              Object {
+                "top": "auto",
+              }
+            }
+          >
+            <use
+              xlinkHref="#general-selected"
+            />
+          </svg>
+        </span>
+        <button
+          className="btn btn--transp btn--icon sharedComponentsButton"
+          onClick={[Function]}
+          onMouseDown={[Function]}
+          onTouchStart={[Function]}
+          title="title"
+        >
+          <span
+            className="app-icon app-icon--general-plus btn__icon"
+            name="general-plus"
+            onClick={[Function]}
+            onMouseEnter={[Function]}
+            onMouseLeave={[Function]}
+          >
+            <svg
+              className="app-icon__svg"
+              style={
+                Object {
+                  "top": "auto",
+                }
+              }
+            >
+              <use
+                xlinkHref="#general-plus"
+              />
+            </svg>
+          </span>
+        </button>
+      </div>
+    </div>
+    <div
+      className="row"
+      onClick={[Function]}
+    >
+      <div
+        className="content"
+      >
+        <span
+          className="app-icon app-icon--general-all-dashboards"
+          disabled={false}
+          name="general-all-dashboards"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+          onMouseLeave={[Function]}
+        >
+          <svg
+            className="app-icon__svg"
+            style={
+              Object {
+                "top": "auto",
+              }
+            }
+          >
+            <use
+              xlinkHref="#general-all-dashboards"
+            />
+          </svg>
+        </span>
+        <div
+          className="title"
+        >
+          All Dashboards
+        </div>
+      </div>
+    </div>
+    <div
+      className="component"
+    />
+    <div
+      className="treeContainer"
+    >
+      <<div></div>
+        isDragEnabled={true}
+        isNestingEnabled={true}
+        offsetPerLevel={16}
+        onCollapse={[Function]}
+        onDragEnd={[Function]}
+        onExpand={[Function]}
+        renderItem={[Function]}
+        tree={
+          Object {
+            "items": Object {
+              "60a326d08968f4002e1b87e1": Object {
+                "children": Array [
+                  "60a326ed8968f4002e1b87e5",
+                ],
+                "data": Object {
+                  "menuItems": Array [
+                    Object {
+                      "caption": "Rename",
+                      "id": "60a326d08968f4002e1b87e1-0",
+                      "onClick": [Function],
+                      "type": "item",
+                    },
+                    Object {
+                      "caption": "Duplicate",
+                      "id": "60a326d08968f4002e1b87e1-1",
+                      "onClick": [Function],
+                      "type": "item",
+                    },
+                    Object {
+                      "caption": "Delete",
+                      "id": "60a326d08968f4002e1b87e1-2",
+                      "onClick": [Function],
+                      "type": "item",
+                    },
+                  ],
+                  "title": "Fold 1",
+                  "tooltipItems": Array [
+                    Object {
+                      "content": "Fold 1",
+                      "title": "Name",
+                    },
+                    Object {
+                      "content": "Test Test, admin@sisense.com",
+                      "title": "Owner",
+                    },
+                    Object {
+                      "content": "2021-05-18T02:30:40.926Z",
+                      "title": "Created Date",
+                    },
+                    Object {
+                      "content": "2021-05-18T02:30:40.926Z",
+                      "title": "Last Modified",
+                    },
+                  ],
+                  "treeBranch": Array [
+                    "rootFolder",
+                  ],
+                },
+                "hasChildren": true,
+                "id": "60a326d08968f4002e1b87e1",
+                "isExpanded": false,
+              },
+              "60a326d78968f4002e1b87e3": Object {
+                "children": Array [
+                  "618c563a19b9f4003642f558",
+                ],
+                "data": Object {
+                  "menuItems": Array [
+                    Object {
+                      "caption": "Rename",
+                      "id": "60a326d78968f4002e1b87e3-0",
+                      "onClick": [Function],
+                      "type": "item",
+                    },
+                    Object {
+                      "caption": "Duplicate",
+                      "id": "60a326d78968f4002e1b87e3-1",
+                      "onClick": [Function],
+                      "type": "item",
+                    },
+                    Object {
+                      "caption": "Delete",
+                      "id": "60a326d78968f4002e1b87e3-2",
+                      "onClick": [Function],
+                      "type": "item",
+                    },
+                  ],
+                  "title": "Shared Folder",
+                  "tooltipItems": Array [
+                    Object {
+                      "content": "Shared Folder",
+                      "title": "Name",
+                    },
+                    Object {
+                      "content": "Test Test, admin@sisense.com",
+                      "title": "Owner",
+                    },
+                    Object {
+                      "content": "2021-05-18T02:30:47.285Z",
+                      "title": "Created Date",
+                    },
+                    Object {
+                      "content": "2021-05-18T02:35:48.960Z",
+                      "title": "Last Modified",
+                    },
+                  ],
+                  "treeBranch": Array [
+                    "rootFolder",
+                  ],
+                },
+                "hasChildren": true,
+                "id": "60a326d78968f4002e1b87e3",
+                "isExpanded": false,
+              },
+              "60a326ed8968f4002e1b87e5": Object {
+                "children": Array [
+                  "60a326f88968f4002e1b87e7",
+                ],
+                "data": Object {
+                  "menuItems": Array [
+                    Object {
+                      "caption": "Rename",
+                      "id": "60a326ed8968f4002e1b87e5-0",
+                      "onClick": [Function],
+                      "type": "item",
+                    },
+                    Object {
+                      "caption": "Duplicate",
+                      "id": "60a326ed8968f4002e1b87e5-1",
+                      "onClick": [Function],
+                      "type": "item",
+                    },
+                    Object {
+                      "caption": "Delete",
+                      "id": "60a326ed8968f4002e1b87e5-2",
+                      "onClick": [Function],
+                      "type": "item",
+                    },
+                  ],
+                  "title": "Fold 2",
+                  "tooltipItems": Array [
+                    Object {
+                      "content": "Fold 2",
+                      "title": "Name",
+                    },
+                    Object {
+                      "content": "Test Test, admin@sisense.com",
+                      "title": "Owner",
+                    },
+                    Object {
+                      "content": "2021-05-18T02:31:09.560Z",
+                      "title": "Created Date",
+                    },
+                    Object {
+                      "content": "2021-05-18T02:31:09.560Z",
+                      "title": "Last Modified",
+                    },
+                  ],
+                  "treeBranch": Array [
+                    "60a326d08968f4002e1b87e1",
+                  ],
+                },
+                "hasChildren": true,
+                "id": "60a326ed8968f4002e1b87e5",
+                "isExpanded": false,
+              },
+              "60a326f88968f4002e1b87e7": Object {
+                "children": Array [
+                  "61b9b74f2914f00036ef5799",
+                  "6189c8c219b9f4003642f54c",
+                  "61a50014f341bc0037f5b368",
+                  "61ade2116f928b00363f798f",
+                ],
+                "data": Object {
+                  "menuItems": Array [
+                    Object {
+                      "caption": "Rename",
+                      "id": "60a326f88968f4002e1b87e7-0",
+                      "onClick": [Function],
+                      "type": "item",
+                    },
+                    Object {
+                      "caption": "Duplicate",
+                      "id": "60a326f88968f4002e1b87e7-1",
+                      "onClick": [Function],
+                      "type": "item",
+                    },
+                    Object {
+                      "caption": "Delete",
+                      "id": "60a326f88968f4002e1b87e7-2",
+                      "onClick": [Function],
+                      "type": "item",
+                    },
+                  ],
+                  "title": "Fold 3",
+                  "tooltipItems": Array [
+                    Object {
+                      "content": "Fold 3",
+                      "title": "Name",
+                    },
+                    Object {
+                      "content": "Test Test, admin@sisense.com",
+                      "title": "Owner",
+                    },
+                    Object {
+                      "content": "2021-05-18T02:31:20.400Z",
+                      "title": "Created Date",
+                    },
+                    Object {
+                      "content": "2021-05-18T02:31:20.400Z",
+                      "title": "Last Modified",
+                    },
+                  ],
+                  "treeBranch": Array [
+                    "60a326d08968f4002e1b87e1",
+                    "60a326ed8968f4002e1b87e5",
+                  ],
+                },
+                "hasChildren": true,
+                "id": "60a326f88968f4002e1b87e7",
+                "isExpanded": false,
+              },
+              "60ada17b378063002ea0e382": Object {
+                "children": Array [],
+                "data": Object {
+                  "menuItems": Array [
+                    Object {
+                      "caption": "Rename",
+                      "id": "60ada17b378063002ea0e382-0",
+                      "onClick": [Function],
+                      "type": "item",
+                    },
+                    Object {
+                      "caption": "Duplicate",
+                      "id": "60ada17b378063002ea0e382-1",
+                      "onClick": [Function],
+                      "type": "item",
+                    },
+                    Object {
+                      "caption": "Delete",
+                      "id": "60ada17b378063002ea0e382-2",
+                      "onClick": [Function],
+                      "type": "item",
+                    },
+                  ],
+                  "title": "Sample Healthcare",
+                  "tooltipItems": Array [
+                    Object {
+                      "content": "Sample Healthcare",
+                      "title": "Name",
+                    },
+                    Object {
+                      "content": "Test Test, admin@sisense.com",
+                      "title": "Owner",
+                    },
+                    Object {
+                      "content": "2021-05-26T01:16:43.809Z",
+                      "title": "Created Date",
+                    },
+                    Object {
+                      "content": "2021-12-14T12:37:00.117Z",
+                      "title": "Last Modified",
+                    },
+                  ],
+                  "treeBranch": Array [
+                    "6115486fa6ba3e00350c1835",
+                    "619f9d00f341bc0037f5b35b",
+                  ],
+                },
+                "hasChildren": false,
+                "id": "60ada17b378063002ea0e382",
+                "isExpanded": false,
+              },
+              "60c122e97829820035675d14": Object {
+                "children": Array [
+                  "619e6f52f341bc0037f5b325",
+                  "61a639509b41860036fc34c2",
+                  "61a639589b41860036fc34c4",
+                  "60d3b291fe781600350a3665",
+                  "6189c66019b9f4003642f545",
+                  "61ade2116f928b00363f798d",
+                ],
+                "data": Object {
+                  "menuItems": Array [
+                    Object {
+                      "caption": "Rename",
+                      "id": "60c122e97829820035675d14-0",
+                      "onClick": [Function],
+                      "type": "item",
+                    },
+                    Object {
+                      "caption": "Duplicate",
+                      "id": "60c122e97829820035675d14-1",
+                      "onClick": [Function],
+                      "type": "item",
+                    },
+                    Object {
+                      "caption": "Delete",
+                      "id": "60c122e97829820035675d14-2",
+                      "onClick": [Function],
+                      "type": "item",
+                    },
+                  ],
+                  "title": "zzz",
+                  "tooltipItems": Array [
+                    Object {
+                      "content": "zzz",
+                      "title": "Name",
+                    },
+                    Object {
+                      "content": "Test Test, admin@sisense.com",
+                      "title": "Owner",
+                    },
+                    Object {
+                      "content": "2021-06-09T20:22:01.212Z",
+                      "title": "Created Date",
+                    },
+                    Object {
+                      "content": "2021-12-01T10:49:42.472Z",
+                      "title": "Last Modified",
+                    },
+                  ],
+                  "treeBranch": Array [
+                    "rootFolder",
+                  ],
+                },
+                "hasChildren": true,
+                "id": "60c122e97829820035675d14",
+                "isExpanded": false,
+              },
+              "60d3b291fe781600350a3665": Object {
+                "children": Array [],
+                "data": Object {
+                  "menuItems": Array [
+                    Object {
+                      "caption": "Rename",
+                      "id": "60d3b291fe781600350a3665-0",
+                      "onClick": [Function],
+                      "type": "item",
+                    },
+                    Object {
+                      "caption": "Duplicate",
+                      "id": "60d3b291fe781600350a3665-1",
+                      "onClick": [Function],
+                      "type": "item",
+                    },
+                    Object {
+                      "caption": "Delete",
+                      "id": "60d3b291fe781600350a3665-2",
+                      "onClick": [Function],
+                      "type": "item",
+                    },
+                  ],
+                  "title": "Steven's Dashboard",
+                  "tooltipItems": Array [
+                    Object {
+                      "content": "Steven's Dashboard",
+                      "title": "Name",
+                    },
+                    Object {
+                      "content": "Test Test, admin@sisense.com",
+                      "title": "Owner",
+                    },
+                    Object {
+                      "content": "2021-06-23T22:15:45.881Z",
+                      "title": "Created Date",
+                    },
+                    Object {
+                      "content": "2021-12-09T18:18:15.280Z",
+                      "title": "Last Modified",
+                    },
+                  ],
+                  "treeBranch": Array [
+                    "60c122e97829820035675d14",
+                  ],
+                },
+                "hasChildren": false,
+                "id": "60d3b291fe781600350a3665",
+                "isExpanded": false,
+              },
+              "60faff8bc5a99b0035101b3b": Object {
+                "children": Array [],
+                "data": Object {
+                  "menuItems": Array [
+                    Object {
+                      "caption": "Rename",
+                      "id": "60faff8bc5a99b0035101b3b-0",
+                      "onClick": [Function],
+                      "type": "item",
+                    },
+                    Object {
+                      "caption": "Duplicate",
+                      "id": "60faff8bc5a99b0035101b3b-1",
+                      "onClick": [Function],
+                      "type": "item",
+                    },
+                    Object {
+                      "caption": "Delete",
+                      "id": "60faff8bc5a99b0035101b3b-2",
+                      "onClick": [Function],
+                      "type": "item",
+                    },
+                  ],
+                  "title": "hi",
+                  "tooltipItems": Array [
+                    Object {
+                      "content": "hi",
+                      "title": "Name",
+                    },
+                    Object {
+                      "content": "Test Test, admin@sisense.com",
+                      "title": "Owner",
+                    },
+                    Object {
+                      "content": "2021-07-23T17:42:35.771Z",
+                      "title": "Created Date",
+                    },
+                    Object {
+                      "content": "2021-07-23T17:42:35.771Z",
+                      "title": "Last Modified",
+                    },
+                  ],
+                  "treeBranch": Array [
+                    "rootFolder",
+                  ],
+                },
+                "hasChildren": true,
+                "id": "60faff8bc5a99b0035101b3b",
+                "isExpanded": false,
+              },
+              "6112bea5a6ba3e00350c17fb": Object {
+                "children": Array [
+                  "6112beb5a6ba3e00350c17fd",
+                ],
+                "data": Object {
+                  "menuItems": Array [
+                    Object {
+                      "caption": "Rename",
+                      "id": "6112bea5a6ba3e00350c17fb-0",
+                      "onClick": [Function],
+                      "type": "item",
+                    },
+                    Object {
+                      "caption": "Duplicate",
+                      "id": "6112bea5a6ba3e00350c17fb-1",
+                      "onClick": [Function],
+                      "type": "item",
+                    },
+                    Object {
+                      "caption": "Delete",
+                      "id": "6112bea5a6ba3e00350c17fb-2",
+                      "onClick": [Function],
+                      "type": "item",
+                    },
+                  ],
+                  "title": "Steven Data Designer",
+                  "tooltipItems": Array [
+                    Object {
+                      "content": "Steven Data Designer",
+                      "title": "Name",
+                    },
+                    Object {
+                      "content": "Steven Griffith, steven.griffith+datadesigner@sisense.com",
+                      "title": "Owner",
+                    },
+                    Object {
+                      "content": "2021-08-10T18:00:05.049Z",
+                      "title": "Created Date",
+                    },
+                    Object {
+                      "content": "2021-08-10T18:00:05.049Z",
+                      "title": "Last Modified",
+                    },
+                  ],
+                  "treeBranch": Array [
+                    "rootFolder",
+                  ],
+                },
+                "hasChildren": true,
+                "id": "6112bea5a6ba3e00350c17fb",
+                "isExpanded": false,
+              },
+              "6112beb5a6ba3e00350c17fd": Object {
+                "children": Array [
+                  "6112bed1a6ba3e00350c1801",
+                ],
+                "data": Object {
+                  "menuItems": Array [
+                    Object {
+                      "caption": "Rename",
+                      "id": "6112beb5a6ba3e00350c17fd-0",
+                      "onClick": [Function],
+                      "type": "item",
+                    },
+                    Object {
+                      "caption": "Duplicate",
+                      "id": "6112beb5a6ba3e00350c17fd-1",
+                      "onClick": [Function],
+                      "type": "item",
+                    },
+                    Object {
+                      "caption": "Delete",
+                      "id": "6112beb5a6ba3e00350c17fd-2",
+                      "onClick": [Function],
+                      "type": "item",
+                    },
+                  ],
+                  "title": "Steven 2nd Data Designer",
+                  "tooltipItems": Array [
+                    Object {
+                      "content": "Steven 2nd Data Designer",
+                      "title": "Name",
+                    },
+                    Object {
+                      "content": "Steven Griffith, steven.griffith+datadesigner@sisense.com",
+                      "title": "Owner",
+                    },
+                    Object {
+                      "content": "2021-08-10T18:00:21.227Z",
+                      "title": "Created Date",
+                    },
+                    Object {
+                      "content": "2021-08-10T18:00:21.227Z",
+                      "title": "Last Modified",
+                    },
+                  ],
+                  "treeBranch": Array [
+                    "6112bea5a6ba3e00350c17fb",
+                  ],
+                },
+                "hasChildren": true,
+                "id": "6112beb5a6ba3e00350c17fd",
+                "isExpanded": false,
+              },
+              "6112bed1a6ba3e00350c1801": Object {
+                "children": Array [],
+                "data": Object {
+                  "menuItems": Array [
+                    Object {
+                      "caption": "Rename",
+                      "id": "6112bed1a6ba3e00350c1801-0",
+                      "onClick": [Function],
+                      "type": "item",
+                    },
+                    Object {
+                      "caption": "Duplicate",
+                      "id": "6112bed1a6ba3e00350c1801-1",
+                      "onClick": [Function],
+                      "type": "item",
+                    },
+                    Object {
+                      "caption": "Delete",
+                      "id": "6112bed1a6ba3e00350c1801-2",
+                      "onClick": [Function],
+                      "type": "item",
+                    },
+                  ],
+                  "title": "Steven Sample ECommerce",
+                  "tooltipItems": Array [
+                    Object {
+                      "content": "Steven Sample ECommerce",
+                      "title": "Name",
+                    },
+                    Object {
+                      "content": "Steven Griffith, steven.griffith+datadesigner@sisense.com",
+                      "title": "Owner",
+                    },
+                    Object {
+                      "content": "2021-08-10T18:00:49.316Z",
+                      "title": "Created Date",
+                    },
+                    Object {
+                      "content": "2021-08-10T21:21:09.706Z",
+                      "title": "Last Modified",
+                    },
+                  ],
+                  "treeBranch": Array [
+                    "6112bea5a6ba3e00350c17fb",
+                    "6112beb5a6ba3e00350c17fd",
+                  ],
+                },
+                "hasChildren": false,
+                "id": "6112bed1a6ba3e00350c1801",
+                "isExpanded": false,
+              },
+              "6115027aa6ba3e00350c1822": Object {
+                "children": Array [],
+                "data": Object {
+                  "menuItems": Array [
+                    Object {
+                      "caption": "Rename",
+                      "id": "6115027aa6ba3e00350c1822-0",
+                      "onClick": [Function],
+                      "type": "item",
+                    },
+                    Object {
+                      "caption": "Duplicate",
+                      "id": "6115027aa6ba3e00350c1822-1",
+                      "onClick": [Function],
+                      "type": "item",
+                    },
+                    Object {
+                      "caption": "Delete",
+                      "id": "6115027aa6ba3e00350c1822-2",
+                      "onClick": [Function],
+                      "type": "item",
+                    },
+                  ],
+                  "title": "Katherine Data Designer Dashboard",
+                  "tooltipItems": Array [
+                    Object {
+                      "content": "Katherine Data Designer Dashboard",
+                      "title": "Name",
+                    },
+                    Object {
+                      "content": "Test Test, admin@sisense.com",
+                      "title": "Owner",
+                    },
+                    Object {
+                      "content": "2021-08-12T11:14:02.966Z",
+                      "title": "Created Date",
+                    },
+                    Object {
+                      "content": "2021-12-14T19:57:15.991Z",
+                      "title": "Last Modified",
+                    },
+                  ],
+                  "treeBranch": Array [
+                    "612fc771d9c12d0035c3fdd2",
+                  ],
+                },
+                "hasChildren": false,
+                "id": "6115027aa6ba3e00350c1822",
+                "isExpanded": false,
+              },
+              "61154865a6ba3e00350c1832": Object {
+                "children": Array [],
+                "data": Object {
+                  "menuItems": Array [
+                    Object {
+                      "caption": "Rename",
+                      "id": "61154865a6ba3e00350c1832-0",
+                      "onClick": [Function],
+                      "type": "item",
+                    },
+                    Object {
+                      "caption": "Duplicate",
+                      "id": "61154865a6ba3e00350c1832-1",
+                      "onClick": [Function],
+                      "type": "item",
+                    },
+                    Object {
+                      "caption": "Delete",
+                      "id": "61154865a6ba3e00350c1832-2",
+                      "onClick": [Function],
+                      "type": "item",
+                    },
+                  ],
+                  "title": "Bogdan's Test",
+                  "tooltipItems": Array [
+                    Object {
+                      "content": "Bogdan's Test",
+                      "title": "Name",
+                    },
+                    Object {
+                      "content": "Test Test, admin@sisense.com",
+                      "title": "Owner",
+                    },
+                    Object {
+                      "content": "2021-08-12T16:12:21.857Z",
+                      "title": "Created Date",
+                    },
+                    Object {
+                      "content": "2021-09-01T18:25:37.799Z",
+                      "title": "Last Modified",
+                    },
+                  ],
+                  "treeBranch": Array [
+                    "6115486fa6ba3e00350c1835",
+                  ],
+                },
+                "hasChildren": false,
+                "id": "61154865a6ba3e00350c1832",
+                "isExpanded": false,
+              },
+              "6115486fa6ba3e00350c1835": Object {
+                "children": Array [
+                  "612b5b9d7e2d3200362aac03",
+                  "619f9d00f341bc0037f5b35b",
+                  "61154865a6ba3e00350c1832",
+                  "612b5ced7e2d3200362aac24",
+                  "61a5000af341bc0037f5b364",
+                ],
+                "data": Object {
+                  "menuItems": Array [
+                    Object {
+                      "caption": "Rename",
+                      "id": "6115486fa6ba3e00350c1835-0",
+                      "onClick": [Function],
+                      "type": "item",
+                    },
+                    Object {
+                      "caption": "Duplicate",
+                      "id": "6115486fa6ba3e00350c1835-1",
+                      "onClick": [Function],
+                      "type": "item",
+                    },
+                    Object {
+                      "caption": "Delete",
+                      "id": "6115486fa6ba3e00350c1835-2",
+                      "onClick": [Function],
+                      "type": "item",
+                    },
+                  ],
+                  "title": "Bogdan's Folder",
+                  "tooltipItems": Array [
+                    Object {
+                      "content": "Bogdan's Folder",
+                      "title": "Name",
+                    },
+                    Object {
+                      "content": "Test Test, admin@sisense.com",
+                      "title": "Owner",
+                    },
+                    Object {
+                      "content": "2021-08-12T16:12:31.251Z",
+                      "title": "Created Date",
+                    },
+                    Object {
+                      "content": "2021-08-12T16:12:31.251Z",
+                      "title": "Last Modified",
+                    },
+                  ],
+                  "treeBranch": Array [
+                    "rootFolder",
+                  ],
+                },
+                "hasChildren": true,
+                "id": "6115486fa6ba3e00350c1835",
+                "isExpanded": false,
+              },
+              "611bf723642d76003510140e": Object {
+                "children": Array [],
+                "data": Object {
+                  "menuItems": Array [
+                    Object {
+                      "caption": "Rename",
+                      "id": "611bf723642d76003510140e-0",
+                      "onClick": [Function],
+                      "type": "item",
+                    },
+                    Object {
+                      "caption": "Duplicate",
+                      "id": "611bf723642d76003510140e-1",
+                      "onClick": [Function],
+                      "type": "item",
+                    },
+                    Object {
+                      "caption": "Delete",
+                      "id": "611bf723642d76003510140e-2",
+                      "onClick": [Function],
+                      "type": "item",
+                    },
+                  ],
+                  "title": "Sample - Lead Generation",
+                  "tooltipItems": Array [
+                    Object {
+                      "content": "Sample - Lead Generation",
+                      "title": "Name",
+                    },
+                    Object {
+                      "content": "Test Test, admin@sisense.com",
+                      "title": "Owner",
+                    },
+                    Object {
+                      "content": "2021-08-17T17:51:31.778Z",
+                      "title": "Created Date",
+                    },
+                    Object {
+                      "content": "2021-08-29T10:04:16.399Z",
+                      "title": "Last Modified",
+                    },
+                  ],
+                  "treeBranch": Array [
+                    "6115486fa6ba3e00350c1835",
+                    "612b5b9d7e2d3200362aac03",
+                  ],
+                },
+                "hasChildren": false,
+                "id": "611bf723642d76003510140e",
+                "isExpanded": false,
+              },
+              "612b5b9d7e2d3200362aac03": Object {
+                "children": Array [
+                  "611bf723642d76003510140e",
+                  "619f3f6ff341bc0037f5b328",
+                  "619f3f81f341bc0037f5b33a",
+                  "619f3f81f341bc0037f5b34a",
+                ],
+                "data": Object {
+                  "menuItems": Array [
+                    Object {
+                      "caption": "Rename",
+                      "id": "612b5b9d7e2d3200362aac03-0",
+                      "onClick": [Function],
+                      "type": "item",
+                    },
+                    Object {
+                      "caption": "Duplicate",
+                      "id": "612b5b9d7e2d3200362aac03-1",
+                      "onClick": [Function],
+                      "type": "item",
+                    },
+                    Object {
+                      "caption": "Delete",
+                      "id": "612b5b9d7e2d3200362aac03-2",
+                      "onClick": [Function],
+                      "type": "item",
+                    },
+                  ],
+                  "title": "Temp",
+                  "tooltipItems": Array [
+                    Object {
+                      "content": "Temp",
+                      "title": "Name",
+                    },
+                    Object {
+                      "content": "Test Test, admin@sisense.com",
+                      "title": "Owner",
+                    },
+                    Object {
+                      "content": "2021-08-29T10:04:13.484Z",
+                      "title": "Created Date",
+                    },
+                    Object {
+                      "content": "2021-08-29T10:04:13.484Z",
+                      "title": "Last Modified",
+                    },
+                  ],
+                  "treeBranch": Array [
+                    "6115486fa6ba3e00350c1835",
+                  ],
+                },
+                "hasChildren": true,
+                "id": "612b5b9d7e2d3200362aac03",
+                "isExpanded": false,
+              },
+              "612b5bac7e2d3200362aac05": Object {
+                "children": Array [],
+                "data": Object {
+                  "menuItems": Array [
+                    Object {
+                      "caption": "Rename",
+                      "id": "612b5bac7e2d3200362aac05-0",
+                      "onClick": [Function],
+                      "type": "item",
+                    },
+                    Object {
+                      "caption": "Duplicate",
+                      "id": "612b5bac7e2d3200362aac05-1",
+                      "onClick": [Function],
+                      "type": "item",
+                    },
+                    Object {
+                      "caption": "Delete",
+                      "id": "612b5bac7e2d3200362aac05-2",
+                      "onClick": [Function],
+                      "type": "item",
+                    },
+                  ],
+                  "title": "Sample - Ecommerce",
+                  "tooltipItems": Array [
+                    Object {
+                      "content": "Sample - Ecommerce",
+                      "title": "Name",
+                    },
+                    Object {
+                      "content": "Test Test, admin@sisense.com",
+                      "title": "Owner",
+                    },
+                    Object {
+                      "content": "2021-08-29T10:04:28.375Z",
+                      "title": "Created Date",
+                    },
+                    Object {
+                      "content": "2021-12-15T08:45:44.034Z",
+                      "title": "Last Modified",
+                    },
+                  ],
+                  "treeBranch": Array [
+                    "rootFolder",
+                  ],
+                },
+                "hasChildren": false,
+                "id": "612b5bac7e2d3200362aac05",
+                "isExpanded": false,
+              },
+              "612b5ced7e2d3200362aac24": Object {
+                "children": Array [],
+                "data": Object {
+                  "menuItems": Array [
+                    Object {
+                      "caption": "Rename",
+                      "id": "612b5ced7e2d3200362aac24-0",
+                      "onClick": [Function],
+                      "type": "item",
+                    },
+                    Object {
+                      "caption": "Duplicate",
+                      "id": "612b5ced7e2d3200362aac24-1",
+                      "onClick": [Function],
+                      "type": "item",
+                    },
+                    Object {
+                      "caption": "Delete",
+                      "id": "612b5ced7e2d3200362aac24-2",
+                      "onClick": [Function],
+                      "type": "item",
+                    },
+                  ],
+                  "title": "Sample Retail",
+                  "tooltipItems": Array [
+                    Object {
+                      "content": "Sample Retail",
+                      "title": "Name",
+                    },
+                    Object {
+                      "content": "Test Test, admin@sisense.com",
+                      "title": "Owner",
+                    },
+                    Object {
+                      "content": "2021-08-29T10:09:49.703Z",
+                      "title": "Created Date",
+                    },
+                    Object {
+                      "content": "2021-08-29T10:09:59.891Z",
+                      "title": "Last Modified",
+                    },
+                  ],
+                  "treeBranch": Array [
+                    "6115486fa6ba3e00350c1835",
+                  ],
+                },
+                "hasChildren": false,
+                "id": "612b5ced7e2d3200362aac24",
+                "isExpanded": false,
+              },
+              "612fc771d9c12d0035c3fdd2": Object {
+                "children": Array [
+                  "6115027aa6ba3e00350c1822",
+                  "61b8f8c22914f00036ef578e",
+                ],
+                "data": Object {
+                  "menuItems": Array [
+                    Object {
+                      "caption": "Rename",
+                      "id": "612fc771d9c12d0035c3fdd2-0",
+                      "onClick": [Function],
+                      "type": "item",
+                    },
+                    Object {
+                      "caption": "Duplicate",
+                      "id": "612fc771d9c12d0035c3fdd2-1",
+                      "onClick": [Function],
+                      "type": "item",
+                    },
+                    Object {
+                      "caption": "Delete",
+                      "id": "612fc771d9c12d0035c3fdd2-2",
+                      "onClick": [Function],
+                      "type": "item",
+                    },
+                  ],
+                  "title": "kat2",
+                  "tooltipItems": Array [
+                    Object {
+                      "content": "kat2",
+                      "title": "Name",
+                    },
+                    Object {
+                      "content": "Test Test, admin@sisense.com",
+                      "title": "Owner",
+                    },
+                    Object {
+                      "content": "2021-09-01T18:33:21.092Z",
+                      "title": "Created Date",
+                    },
+                    Object {
+                      "content": "2021-09-02T15:52:44.420Z",
+                      "title": "Last Modified",
+                    },
+                  ],
+                  "treeBranch": Array [
+                    "rootFolder",
+                  ],
+                },
+                "hasChildren": true,
+                "id": "612fc771d9c12d0035c3fdd2",
+                "isExpanded": false,
+              },
+              "612fc775d9c12d0035c3fdd4": Object {
+                "children": Array [
+                  "6189a30b19b9f4003642f529",
+                ],
+                "data": Object {
+                  "menuItems": Array [
+                    Object {
+                      "caption": "Rename",
+                      "id": "612fc775d9c12d0035c3fdd4-0",
+                      "onClick": [Function],
+                      "type": "item",
+                    },
+                    Object {
+                      "caption": "Duplicate",
+                      "id": "612fc775d9c12d0035c3fdd4-1",
+                      "onClick": [Function],
+                      "type": "item",
+                    },
+                    Object {
+                      "caption": "Delete",
+                      "id": "612fc775d9c12d0035c3fdd4-2",
+                      "onClick": [Function],
+                      "type": "item",
+                    },
+                  ],
+                  "title": "kat2",
+                  "tooltipItems": Array [
+                    Object {
+                      "content": "kat2",
+                      "title": "Name",
+                    },
+                    Object {
+                      "content": "Test Test, admin@sisense.com",
+                      "title": "Owner",
+                    },
+                    Object {
+                      "content": "2021-09-01T18:33:25.713Z",
+                      "title": "Created Date",
+                    },
+                    Object {
+                      "content": "2021-09-01T18:33:25.713Z",
+                      "title": "Last Modified",
+                    },
+                  ],
+                  "treeBranch": Array [
+                    "rootFolder",
+                  ],
+                },
+                "hasChildren": true,
+                "id": "612fc775d9c12d0035c3fdd4",
+                "isExpanded": false,
+              },
+              "617ae08510e87300363cd427": Object {
+                "children": Array [],
+                "data": Object {
+                  "menuItems": Array [
+                    Object {
+                      "caption": "Rename",
+                      "id": "617ae08510e87300363cd427-0",
+                      "onClick": [Function],
+                      "type": "item",
+                    },
+                    Object {
+                      "caption": "Duplicate",
+                      "id": "617ae08510e87300363cd427-1",
+                      "onClick": [Function],
+                      "type": "item",
+                    },
+                    Object {
+                      "caption": "Delete",
+                      "id": "617ae08510e87300363cd427-2",
+                      "onClick": [Function],
+                      "type": "item",
+                    },
+                  ],
+                  "title": "Sample ECommerce",
+                  "tooltipItems": Array [
+                    Object {
+                      "content": "Sample ECommerce",
+                      "title": "Name",
+                    },
+                    Object {
+                      "content": "Test Test, admin@sisense.com",
+                      "title": "Owner",
+                    },
+                    Object {
+                      "content": "2021-10-28T17:40:21.287Z",
+                      "title": "Created Date",
+                    },
+                    Object {
+                      "content": "2021-12-12T09:02:04.817Z",
+                      "title": "Last Modified",
+                    },
+                  ],
+                  "treeBranch": Array [
+                    "60c122e97829820035675d14",
+                    "619e6f52f341bc0037f5b325",
+                  ],
+                },
+                "hasChildren": false,
+                "id": "617ae08510e87300363cd427",
+                "isExpanded": false,
+              },
+              "617c1b2810e87300363cd435": Object {
+                "children": Array [],
+                "data": Object {
+                  "menuItems": Array [
+                    Object {
+                      "caption": "Rename",
+                      "id": "617c1b2810e87300363cd435-0",
+                      "onClick": [Function],
+                      "type": "item",
+                    },
+                    Object {
+                      "caption": "Duplicate",
+                      "id": "617c1b2810e87300363cd435-1",
+                      "onClick": [Function],
+                      "type": "item",
+                    },
+                    Object {
+                      "caption": "Delete",
+                      "id": "617c1b2810e87300363cd435-2",
+                      "onClick": [Function],
+                      "type": "item",
+                    },
+                  ],
+                  "title": "Sample ECommerce - Tuan Test",
+                  "tooltipItems": Array [
+                    Object {
+                      "content": "Sample ECommerce - Tuan Test",
+                      "title": "Name",
+                    },
+                    Object {
+                      "content": "Test Test, admin@sisense.com",
+                      "title": "Owner",
+                    },
+                    Object {
+                      "content": "2021-10-29T16:02:48.303Z",
+                      "title": "Created Date",
+                    },
+                    Object {
+                      "content": "2021-12-12T09:19:20.517Z",
+                      "title": "Last Modified",
+                    },
+                  ],
+                  "treeBranch": Array [
+                    "rootFolder",
+                  ],
+                },
+                "hasChildren": false,
+                "id": "617c1b2810e87300363cd435",
+                "isExpanded": false,
+              },
+              "6180040294078e003665c83f": Object {
+                "children": Array [],
+                "data": Object {
+                  "menuItems": Array [
+                    Object {
+                      "caption": "Rename",
+                      "id": "6180040294078e003665c83f-0",
+                      "onClick": [Function],
+                      "type": "item",
+                    },
+                    Object {
+                      "caption": "Duplicate",
+                      "id": "6180040294078e003665c83f-1",
+                      "onClick": [Function],
+                      "type": "item",
+                    },
+                    Object {
+                      "caption": "Delete",
+                      "id": "6180040294078e003665c83f-2",
+                      "onClick": [Function],
+                      "type": "item",
+                    },
+                  ],
+                  "title": "Sample Healthcare (1)",
+                  "tooltipItems": Array [
+                    Object {
+                      "content": "Sample Healthcare (1)",
+                      "title": "Name",
+                    },
+                    Object {
+                      "content": "Test Test, admin@sisense.com",
+                      "title": "Owner",
+                    },
+                    Object {
+                      "content": "2021-11-01T15:13:06.194Z",
+                      "title": "Created Date",
+                    },
+                    Object {
+                      "content": "2021-11-01T15:13:09.230Z",
+                      "title": "Last Modified",
+                    },
+                  ],
+                  "treeBranch": Array [
+                    "rootFolder",
+                  ],
+                },
+                "hasChildren": false,
+                "id": "6180040294078e003665c83f",
+                "isExpanded": false,
+              },
+              "6189a30b19b9f4003642f529": Object {
+                "children": Array [],
+                "data": Object {
+                  "menuItems": Array [
+                    Object {
+                      "caption": "Rename",
+                      "id": "6189a30b19b9f4003642f529-0",
+                      "onClick": [Function],
+                      "type": "item",
+                    },
+                    Object {
+                      "caption": "Duplicate",
+                      "id": "6189a30b19b9f4003642f529-1",
+                      "onClick": [Function],
+                      "type": "item",
+                    },
+                    Object {
+                      "caption": "Delete",
+                      "id": "6189a30b19b9f4003642f529-2",
+                      "onClick": [Function],
+                      "type": "item",
+                    },
+                  ],
+                  "title": "JD test 2",
+                  "tooltipItems": Array [
+                    Object {
+                      "content": "JD test 2",
+                      "title": "Name",
+                    },
+                    Object {
+                      "content": "Test Test, admin@sisense.com",
+                      "title": "Owner",
+                    },
+                    Object {
+                      "content": "2021-11-08T22:22:03.250Z",
+                      "title": "Created Date",
+                    },
+                    Object {
+                      "content": "2021-12-08T12:35:41.950Z",
+                      "title": "Last Modified",
+                    },
+                  ],
+                  "treeBranch": Array [
+                    "612fc775d9c12d0035c3fdd4",
+                  ],
+                },
+                "hasChildren": false,
+                "id": "6189a30b19b9f4003642f529",
+                "isExpanded": false,
+              },
+              "6189c66019b9f4003642f545": Object {
+                "children": Array [],
+                "data": Object {
+                  "menuItems": Array [
+                    Object {
+                      "caption": "Rename",
+                      "id": "6189c66019b9f4003642f545-0",
+                      "onClick": [Function],
+                      "type": "item",
+                    },
+                    Object {
+                      "caption": "Duplicate",
+                      "id": "6189c66019b9f4003642f545-1",
+                      "onClick": [Function],
+                      "type": "item",
+                    },
+                    Object {
+                      "caption": "Delete",
+                      "id": "6189c66019b9f4003642f545-2",
+                      "onClick": [Function],
+                      "type": "item",
+                    },
+                  ],
+                  "title": "JD test snowflake 2",
+                  "tooltipItems": Array [
+                    Object {
+                      "content": "JD test snowflake 2",
+                      "title": "Name",
+                    },
+                    Object {
+                      "content": "Test Test, admin@sisense.com",
+                      "title": "Owner",
+                    },
+                    Object {
+                      "content": "2021-11-09T00:52:48.316Z",
+                      "title": "Created Date",
+                    },
+                    Object {
+                      "content": "2021-12-08T12:51:37.088Z",
+                      "title": "Last Modified",
+                    },
+                  ],
+                  "treeBranch": Array [
+                    "60c122e97829820035675d14",
+                  ],
+                },
+                "hasChildren": false,
+                "id": "6189c66019b9f4003642f545",
+                "isExpanded": false,
+              },
+              "6189c8c219b9f4003642f54c": Object {
+                "children": Array [],
+                "data": Object {
+                  "menuItems": Array [
+                    Object {
+                      "caption": "Rename",
+                      "id": "6189c8c219b9f4003642f54c-0",
+                      "onClick": [Function],
+                      "type": "item",
+                    },
+                    Object {
+                      "caption": "Duplicate",
+                      "id": "6189c8c219b9f4003642f54c-1",
+                      "onClick": [Function],
+                      "type": "item",
+                    },
+                    Object {
+                      "caption": "Delete",
+                      "id": "6189c8c219b9f4003642f54c-2",
+                      "onClick": [Function],
+                      "type": "item",
+                    },
+                  ],
+                  "title": "JD snowflake test 3",
+                  "tooltipItems": Array [
+                    Object {
+                      "content": "JD snowflake test 3",
+                      "title": "Name",
+                    },
+                    Object {
+                      "content": "Test Test, admin@sisense.com",
+                      "title": "Owner",
+                    },
+                    Object {
+                      "content": "2021-11-09T01:02:58.210Z",
+                      "title": "Created Date",
+                    },
+                    Object {
+                      "content": "2021-12-08T12:32:46.806Z",
+                      "title": "Last Modified",
+                    },
+                  ],
+                  "treeBranch": Array [
+                    "60a326d08968f4002e1b87e1",
+                    "60a326ed8968f4002e1b87e5",
+                    "60a326f88968f4002e1b87e7",
+                  ],
+                },
+                "hasChildren": false,
+                "id": "6189c8c219b9f4003642f54c",
+                "isExpanded": false,
+              },
+              "618c563a19b9f4003642f558": Object {
+                "children": Array [],
+                "data": Object {
+                  "menuItems": Array [
+                    Object {
+                      "caption": "Rename",
+                      "id": "618c563a19b9f4003642f558-0",
+                      "onClick": [Function],
+                      "type": "item",
+                    },
+                    Object {
+                      "caption": "Duplicate",
+                      "id": "618c563a19b9f4003642f558-1",
+                      "onClick": [Function],
+                      "type": "item",
+                    },
+                    Object {
+                      "caption": "Delete",
+                      "id": "618c563a19b9f4003642f558-2",
+                      "onClick": [Function],
+                      "type": "item",
+                    },
+                  ],
+                  "title": "JD shared dashboard with 2 users",
+                  "tooltipItems": Array [
+                    Object {
+                      "content": "JD shared dashboard with 2 users",
+                      "title": "Name",
+                    },
+                    Object {
+                      "content": "Test Test, admin@sisense.com",
+                      "title": "Owner",
+                    },
+                    Object {
+                      "content": "2021-11-10T23:31:06.646Z",
+                      "title": "Created Date",
+                    },
+                    Object {
+                      "content": "2021-12-14T08:05:25.617Z",
+                      "title": "Last Modified",
+                    },
+                  ],
+                  "treeBranch": Array [
+                    "60a326d78968f4002e1b87e3",
+                  ],
+                },
+                "hasChildren": false,
+                "id": "618c563a19b9f4003642f558",
+                "isExpanded": false,
+              },
+              "6193fc79ca6ca30036c7a68f": Object {
+                "children": Array [],
+                "data": Object {
+                  "menuItems": Array [
+                    Object {
+                      "caption": "Rename",
+                      "id": "6193fc79ca6ca30036c7a68f-0",
+                      "onClick": [Function],
+                      "type": "item",
+                    },
+                    Object {
+                      "caption": "Duplicate",
+                      "id": "6193fc79ca6ca30036c7a68f-1",
+                      "onClick": [Function],
+                      "type": "item",
+                    },
+                    Object {
+                      "caption": "Delete",
+                      "id": "6193fc79ca6ca30036c7a68f-2",
+                      "onClick": [Function],
+                      "type": "item",
+                    },
+                  ],
+                  "title": "JD SNOWFLAKE - different warehouses and users",
+                  "tooltipItems": Array [
+                    Object {
+                      "content": "JD SNOWFLAKE - different warehouses and users",
+                      "title": "Name",
+                    },
+                    Object {
+                      "content": "Test Test, admin@sisense.com",
+                      "title": "Owner",
+                    },
+                    Object {
+                      "content": "2021-11-16T18:46:17.884Z",
+                      "title": "Created Date",
+                    },
+                    Object {
+                      "content": "2021-12-06T16:06:38.791Z",
+                      "title": "Last Modified",
+                    },
+                  ],
+                  "treeBranch": Array [
+                    "6115486fa6ba3e00350c1835",
+                    "619f9d00f341bc0037f5b35b",
+                  ],
+                },
+                "hasChildren": false,
+                "id": "6193fc79ca6ca30036c7a68f",
+                "isExpanded": false,
+              },
+              "61940d57ca6ca30036c7a6a5": Object {
+                "children": Array [],
+                "data": Object {
+                  "menuItems": Array [
+                    Object {
+                      "caption": "Rename",
+                      "id": "61940d57ca6ca30036c7a6a5-0",
+                      "onClick": [Function],
+                      "type": "item",
+                    },
+                    Object {
+                      "caption": "Duplicate",
+                      "id": "61940d57ca6ca30036c7a6a5-1",
+                      "onClick": [Function],
+                      "type": "item",
+                    },
+                    Object {
+                      "caption": "Delete",
+                      "id": "61940d57ca6ca30036c7a6a5-2",
+                      "onClick": [Function],
+                      "type": "item",
+                    },
+                  ],
+                  "title": "Mia's Dashboard",
+                  "tooltipItems": Array [
+                    Object {
+                      "content": "Mia's Dashboard",
+                      "title": "Name",
+                    },
+                    Object {
+                      "content": "Test Test, admin@sisense.com",
+                      "title": "Owner",
+                    },
+                    Object {
+                      "content": "2021-11-16T19:58:15.459Z",
+                      "title": "Created Date",
+                    },
+                    Object {
+                      "content": "2021-12-15T08:10:52.806Z",
+                      "title": "Last Modified",
+                    },
+                  ],
+                  "treeBranch": Array [
+                    "rootFolder",
+                  ],
+                },
+                "hasChildren": false,
+                "id": "61940d57ca6ca30036c7a6a5",
+                "isExpanded": false,
+              },
+              "619e6338f341bc0037f5b2ef": Object {
+                "children": Array [],
+                "data": Object {
+                  "menuItems": Array [
+                    Object {
+                      "caption": "Rename",
+                      "id": "619e6338f341bc0037f5b2ef-0",
+                      "onClick": [Function],
+                      "type": "item",
+                    },
+                    Object {
+                      "caption": "Duplicate",
+                      "id": "619e6338f341bc0037f5b2ef-1",
+                      "onClick": [Function],
+                      "type": "item",
+                    },
+                    Object {
+                      "caption": "Delete",
+                      "id": "619e6338f341bc0037f5b2ef-2",
+                      "onClick": [Function],
+                      "type": "item",
+                    },
+                  ],
+                  "title": "Steven Sample ECommerce",
+                  "tooltipItems": Array [
+                    Object {
+                      "content": "Steven Sample ECommerce",
+                      "title": "Name",
+                    },
+                    Object {
+                      "content": "Test Test, admin@sisense.com",
+                      "title": "Owner",
+                    },
+                    Object {
+                      "content": "2021-11-24T16:07:20.878Z",
+                      "title": "Created Date",
+                    },
+                    Object {
+                      "content": "2021-11-24T16:07:20.878Z",
+                      "title": "Last Modified",
+                    },
+                  ],
+                  "treeBranch": Array [
+                    "rootFolder",
+                  ],
+                },
+                "hasChildren": false,
+                "id": "619e6338f341bc0037f5b2ef",
+                "isExpanded": false,
+              },
+              "619e633ef341bc0037f5b2f4": Object {
+                "children": Array [],
+                "data": Object {
+                  "menuItems": Array [
+                    Object {
+                      "caption": "Rename",
+                      "id": "619e633ef341bc0037f5b2f4-0",
+                      "onClick": [Function],
+                      "type": "item",
+                    },
+                    Object {
+                      "caption": "Duplicate",
+                      "id": "619e633ef341bc0037f5b2f4-1",
+                      "onClick": [Function],
+                      "type": "item",
+                    },
+                    Object {
+                      "caption": "Delete",
+                      "id": "619e633ef341bc0037f5b2f4-2",
+                      "onClick": [Function],
+                      "type": "item",
+                    },
+                  ],
+                  "title": "Steven Sample ECommerce (1)",
+                  "tooltipItems": Array [
+                    Object {
+                      "content": "Steven Sample ECommerce (1)",
+                      "title": "Name",
+                    },
+                    Object {
+                      "content": "Test Test, admin@sisense.com",
+                      "title": "Owner",
+                    },
+                    Object {
+                      "content": "2021-11-24T16:07:26.326Z",
+                      "title": "Created Date",
+                    },
+                    Object {
+                      "content": "2021-11-24T16:07:26.326Z",
+                      "title": "Last Modified",
+                    },
+                  ],
+                  "treeBranch": Array [
+                    "rootFolder",
+                  ],
+                },
+                "hasChildren": false,
+                "id": "619e633ef341bc0037f5b2f4",
+                "isExpanded": false,
+              },
+              "619e6341f341bc0037f5b2f9": Object {
+                "children": Array [],
+                "data": Object {
+                  "menuItems": Array [
+                    Object {
+                      "caption": "Rename",
+                      "id": "619e6341f341bc0037f5b2f9-0",
+                      "onClick": [Function],
+                      "type": "item",
+                    },
+                    Object {
+                      "caption": "Duplicate",
+                      "id": "619e6341f341bc0037f5b2f9-1",
+                      "onClick": [Function],
+                      "type": "item",
+                    },
+                    Object {
+                      "caption": "Delete",
+                      "id": "619e6341f341bc0037f5b2f9-2",
+                      "onClick": [Function],
+                      "type": "item",
+                    },
+                  ],
+                  "title": "Steven Sample ECommerce (2)",
+                  "tooltipItems": Array [
+                    Object {
+                      "content": "Steven Sample ECommerce (2)",
+                      "title": "Name",
+                    },
+                    Object {
+                      "content": "Test Test, admin@sisense.com",
+                      "title": "Owner",
+                    },
+                    Object {
+                      "content": "2021-11-24T16:07:29.316Z",
+                      "title": "Created Date",
+                    },
+                    Object {
+                      "content": "2021-11-24T16:07:29.316Z",
+                      "title": "Last Modified",
+                    },
+                  ],
+                  "treeBranch": Array [
+                    "rootFolder",
+                  ],
+                },
+                "hasChildren": false,
+                "id": "619e6341f341bc0037f5b2f9",
+                "isExpanded": false,
+              },
+              "619e6f32f341bc0037f5b323": Object {
+                "children": Array [],
+                "data": Object {
+                  "menuItems": Array [
+                    Object {
+                      "caption": "Rename",
+                      "id": "619e6f32f341bc0037f5b323-0",
+                      "onClick": [Function],
+                      "type": "item",
+                    },
+                    Object {
+                      "caption": "Duplicate",
+                      "id": "619e6f32f341bc0037f5b323-1",
+                      "onClick": [Function],
+                      "type": "item",
+                    },
+                    Object {
+                      "caption": "Delete",
+                      "id": "619e6f32f341bc0037f5b323-2",
+                      "onClick": [Function],
+                      "type": "item",
+                    },
+                  ],
+                  "title": "aaa",
+                  "tooltipItems": Array [
+                    Object {
+                      "content": "aaa",
+                      "title": "Name",
+                    },
+                    Object {
+                      "content": "Test Test, admin@sisense.com",
+                      "title": "Owner",
+                    },
+                    Object {
+                      "content": "2021-11-24T16:58:26.796Z",
+                      "title": "Created Date",
+                    },
+                    Object {
+                      "content": "2021-12-01T10:50:21.496Z",
+                      "title": "Last Modified",
+                    },
+                  ],
+                  "treeBranch": Array [
+                    "rootFolder",
+                  ],
+                },
+                "hasChildren": true,
+                "id": "619e6f32f341bc0037f5b323",
+                "isExpanded": false,
+              },
+              "619e6f52f341bc0037f5b325": Object {
+                "children": Array [
+                  "617ae08510e87300363cd427",
+                ],
+                "data": Object {
+                  "menuItems": Array [
+                    Object {
+                      "caption": "Rename",
+                      "id": "619e6f52f341bc0037f5b325-0",
+                      "onClick": [Function],
+                      "type": "item",
+                    },
+                    Object {
+                      "caption": "Duplicate",
+                      "id": "619e6f52f341bc0037f5b325-1",
+                      "onClick": [Function],
+                      "type": "item",
+                    },
+                    Object {
+                      "caption": "Delete",
+                      "id": "619e6f52f341bc0037f5b325-2",
+                      "onClick": [Function],
+                      "type": "item",
+                    },
+                  ],
+                  "title": "a",
+                  "tooltipItems": Array [
+                    Object {
+                      "content": "a",
+                      "title": "Name",
+                    },
+                    Object {
+                      "content": "Test Test, admin@sisense.com",
+                      "title": "Owner",
+                    },
+                    Object {
+                      "content": "2021-11-24T16:58:58.884Z",
+                      "title": "Created Date",
+                    },
+                    Object {
+                      "content": "2021-11-30T14:46:23.182Z",
+                      "title": "Last Modified",
+                    },
+                  ],
+                  "treeBranch": Array [
+                    "60c122e97829820035675d14",
+                  ],
+                },
+                "hasChildren": true,
+                "id": "619e6f52f341bc0037f5b325",
+                "isExpanded": false,
+              },
+              "619f3f6ff341bc0037f5b328": Object {
+                "children": Array [],
+                "data": Object {
+                  "menuItems": Array [
+                    Object {
+                      "caption": "Rename",
+                      "id": "619f3f6ff341bc0037f5b328-0",
+                      "onClick": [Function],
+                      "type": "item",
+                    },
+                    Object {
+                      "caption": "Duplicate",
+                      "id": "619f3f6ff341bc0037f5b328-1",
+                      "onClick": [Function],
+                      "type": "item",
+                    },
+                    Object {
+                      "caption": "Delete",
+                      "id": "619f3f6ff341bc0037f5b328-2",
+                      "onClick": [Function],
+                      "type": "item",
+                    },
+                  ],
+                  "title": "Sample - Lead Generation (1)",
+                  "tooltipItems": Array [
+                    Object {
+                      "content": "Sample - Lead Generation (1)",
+                      "title": "Name",
+                    },
+                    Object {
+                      "content": "Test Test, admin@sisense.com",
+                      "title": "Owner",
+                    },
+                    Object {
+                      "content": "2021-11-25T07:46:55.176Z",
+                      "title": "Created Date",
+                    },
+                    Object {
+                      "content": "2021-11-25T07:46:55.176Z",
+                      "title": "Last Modified",
+                    },
+                  ],
+                  "treeBranch": Array [
+                    "6115486fa6ba3e00350c1835",
+                    "612b5b9d7e2d3200362aac03",
+                  ],
+                },
+                "hasChildren": false,
+                "id": "619f3f6ff341bc0037f5b328",
+                "isExpanded": false,
+              },
+              "619f3f81f341bc0037f5b33a": Object {
+                "children": Array [],
+                "data": Object {
+                  "menuItems": Array [
+                    Object {
+                      "caption": "Rename",
+                      "id": "619f3f81f341bc0037f5b33a-0",
+                      "onClick": [Function],
+                      "type": "item",
+                    },
+                    Object {
+                      "caption": "Duplicate",
+                      "id": "619f3f81f341bc0037f5b33a-1",
+                      "onClick": [Function],
+                      "type": "item",
+                    },
+                    Object {
+                      "caption": "Delete",
+                      "id": "619f3f81f341bc0037f5b33a-2",
+                      "onClick": [Function],
+                      "type": "item",
+                    },
+                  ],
+                  "title": "Sample - Lead Generation (2)",
+                  "tooltipItems": Array [
+                    Object {
+                      "content": "Sample - Lead Generation (2)",
+                      "title": "Name",
+                    },
+                    Object {
+                      "content": "Test Test, admin@sisense.com",
+                      "title": "Owner",
+                    },
+                    Object {
+                      "content": "2021-11-25T07:47:13.736Z",
+                      "title": "Created Date",
+                    },
+                    Object {
+                      "content": "2021-11-25T07:47:13.736Z",
+                      "title": "Last Modified",
+                    },
+                  ],
+                  "treeBranch": Array [
+                    "6115486fa6ba3e00350c1835",
+                    "612b5b9d7e2d3200362aac03",
+                  ],
+                },
+                "hasChildren": false,
+                "id": "619f3f81f341bc0037f5b33a",
+                "isExpanded": false,
+              },
+              "619f3f81f341bc0037f5b34a": Object {
+                "children": Array [],
+                "data": Object {
+                  "menuItems": Array [
+                    Object {
+                      "caption": "Rename",
+                      "id": "619f3f81f341bc0037f5b34a-0",
+                      "onClick": [Function],
+                      "type": "item",
+                    },
+                    Object {
+                      "caption": "Duplicate",
+                      "id": "619f3f81f341bc0037f5b34a-1",
+                      "onClick": [Function],
+                      "type": "item",
+                    },
+                    Object {
+                      "caption": "Delete",
+                      "id": "619f3f81f341bc0037f5b34a-2",
+                      "onClick": [Function],
+                      "type": "item",
+                    },
+                  ],
+                  "title": "Sample - Lead Generation (1) (1)",
+                  "tooltipItems": Array [
+                    Object {
+                      "content": "Sample - Lead Generation (1) (1)",
+                      "title": "Name",
+                    },
+                    Object {
+                      "content": "Test Test, admin@sisense.com",
+                      "title": "Owner",
+                    },
+                    Object {
+                      "content": "2021-11-25T07:47:13.767Z",
+                      "title": "Created Date",
+                    },
+                    Object {
+                      "content": "2021-11-25T07:47:13.767Z",
+                      "title": "Last Modified",
+                    },
+                  ],
+                  "treeBranch": Array [
+                    "6115486fa6ba3e00350c1835",
+                    "612b5b9d7e2d3200362aac03",
+                  ],
+                },
+                "hasChildren": false,
+                "id": "619f3f81f341bc0037f5b34a",
+                "isExpanded": false,
+              },
+              "619f9d00f341bc0037f5b35b": Object {
+                "children": Array [
+                  "619f9d0cf341bc0037f5b35d",
+                  "60ada17b378063002ea0e382",
+                  "6193fc79ca6ca30036c7a68f",
+                ],
+                "data": Object {
+                  "menuItems": Array [
+                    Object {
+                      "caption": "Rename",
+                      "id": "619f9d00f341bc0037f5b35b-0",
+                      "onClick": [Function],
+                      "type": "item",
+                    },
+                    Object {
+                      "caption": "Duplicate",
+                      "id": "619f9d00f341bc0037f5b35b-1",
+                      "onClick": [Function],
+                      "type": "item",
+                    },
+                    Object {
+                      "caption": "Delete",
+                      "id": "619f9d00f341bc0037f5b35b-2",
+                      "onClick": [Function],
+                      "type": "item",
+                    },
+                  ],
+                  "title": "New Folder",
+                  "tooltipItems": Array [
+                    Object {
+                      "content": "New Folder",
+                      "title": "Name",
+                    },
+                    Object {
+                      "content": "Test Test, admin@sisense.com",
+                      "title": "Owner",
+                    },
+                    Object {
+                      "content": "2021-11-25T14:26:08.368Z",
+                      "title": "Created Date",
+                    },
+                    Object {
+                      "content": "2021-11-25T14:26:08.368Z",
+                      "title": "Last Modified",
+                    },
+                  ],
+                  "treeBranch": Array [
+                    "6115486fa6ba3e00350c1835",
+                  ],
+                },
+                "hasChildren": true,
+                "id": "619f9d00f341bc0037f5b35b",
+                "isExpanded": false,
+              },
+              "619f9d0cf341bc0037f5b35d": Object {
+                "children": Array [
+                  "61ae39326f928b00363f799b",
+                  "61ae39296f928b00363f7999",
+                ],
+                "data": Object {
+                  "menuItems": Array [
+                    Object {
+                      "caption": "Rename",
+                      "id": "619f9d0cf341bc0037f5b35d-0",
+                      "onClick": [Function],
+                      "type": "item",
+                    },
+                    Object {
+                      "caption": "Duplicate",
+                      "id": "619f9d0cf341bc0037f5b35d-1",
+                      "onClick": [Function],
+                      "type": "item",
+                    },
+                    Object {
+                      "caption": "Delete",
+                      "id": "619f9d0cf341bc0037f5b35d-2",
+                      "onClick": [Function],
+                      "type": "item",
+                    },
+                  ],
+                  "title": "New Folder",
+                  "tooltipItems": Array [
+                    Object {
+                      "content": "New Folder",
+                      "title": "Name",
+                    },
+                    Object {
+                      "content": "Test Test, admin@sisense.com",
+                      "title": "Owner",
+                    },
+                    Object {
+                      "content": "2021-11-25T14:26:20.405Z",
+                      "title": "Created Date",
+                    },
+                    Object {
+                      "content": "2021-11-25T14:26:20.405Z",
+                      "title": "Last Modified",
+                    },
+                  ],
+                  "treeBranch": Array [
+                    "6115486fa6ba3e00350c1835",
+                    "619f9d00f341bc0037f5b35b",
+                  ],
+                },
+                "hasChildren": true,
+                "id": "619f9d0cf341bc0037f5b35d",
+                "isExpanded": false,
+              },
+              "61a5000af341bc0037f5b364": Object {
+                "children": Array [],
+                "data": Object {
+                  "menuItems": Array [
+                    Object {
+                      "caption": "Rename",
+                      "id": "61a5000af341bc0037f5b364-0",
+                      "onClick": [Function],
+                      "type": "item",
+                    },
+                    Object {
+                      "caption": "Duplicate",
+                      "id": "61a5000af341bc0037f5b364-1",
+                      "onClick": [Function],
+                      "type": "item",
+                    },
+                    Object {
+                      "caption": "Delete",
+                      "id": "61a5000af341bc0037f5b364-2",
+                      "onClick": [Function],
+                      "type": "item",
+                    },
+                  ],
+                  "title": "Govind Test Dashboard 1 (1)",
+                  "tooltipItems": Array [
+                    Object {
+                      "content": "Govind Test Dashboard 1 (1)",
+                      "title": "Name",
+                    },
+                    Object {
+                      "content": "Test Test, admin@sisense.com",
+                      "title": "Owner",
+                    },
+                    Object {
+                      "content": "2021-11-29T16:30:02.105Z",
+                      "title": "Created Date",
+                    },
+                    Object {
+                      "content": "2021-12-06T11:25:49.352Z",
+                      "title": "Last Modified",
+                    },
+                  ],
+                  "treeBranch": Array [
+                    "6115486fa6ba3e00350c1835",
+                  ],
+                },
+                "hasChildren": false,
+                "id": "61a5000af341bc0037f5b364",
+                "isExpanded": false,
+              },
+              "61a50014f341bc0037f5b368": Object {
+                "children": Array [],
+                "data": Object {
+                  "menuItems": Array [
+                    Object {
+                      "caption": "Rename",
+                      "id": "61a50014f341bc0037f5b368-0",
+                      "onClick": [Function],
+                      "type": "item",
+                    },
+                    Object {
+                      "caption": "Duplicate",
+                      "id": "61a50014f341bc0037f5b368-1",
+                      "onClick": [Function],
+                      "type": "item",
+                    },
+                    Object {
+                      "caption": "Delete",
+                      "id": "61a50014f341bc0037f5b368-2",
+                      "onClick": [Function],
+                      "type": "item",
+                    },
+                  ],
+                  "title": "Govind Test Dashboard 1 (1) (1)",
+                  "tooltipItems": Array [
+                    Object {
+                      "content": "Govind Test Dashboard 1 (1) (1)",
+                      "title": "Name",
+                    },
+                    Object {
+                      "content": "Test Test, admin@sisense.com",
+                      "title": "Owner",
+                    },
+                    Object {
+                      "content": "2021-11-29T16:30:12.303Z",
+                      "title": "Created Date",
+                    },
+                    Object {
+                      "content": "2021-12-06T16:02:50.418Z",
+                      "title": "Last Modified",
+                    },
+                  ],
+                  "treeBranch": Array [
+                    "60a326d08968f4002e1b87e1",
+                    "60a326ed8968f4002e1b87e5",
+                    "60a326f88968f4002e1b87e7",
+                  ],
+                },
+                "hasChildren": false,
+                "id": "61a50014f341bc0037f5b368",
+                "isExpanded": false,
+              },
+              "61a639509b41860036fc34c2": Object {
+                "children": Array [],
+                "data": Object {
+                  "menuItems": Array [
+                    Object {
+                      "caption": "Rename",
+                      "id": "61a639509b41860036fc34c2-0",
+                      "onClick": [Function],
+                      "type": "item",
+                    },
+                    Object {
+                      "caption": "Duplicate",
+                      "id": "61a639509b41860036fc34c2-1",
+                      "onClick": [Function],
+                      "type": "item",
+                    },
+                    Object {
+                      "caption": "Delete",
+                      "id": "61a639509b41860036fc34c2-2",
+                      "onClick": [Function],
+                      "type": "item",
+                    },
+                  ],
+                  "title": "f",
+                  "tooltipItems": Array [
+                    Object {
+                      "content": "f",
+                      "title": "Name",
+                    },
+                    Object {
+                      "content": "Test Test, admin@sisense.com",
+                      "title": "Owner",
+                    },
+                    Object {
+                      "content": "2021-11-30T14:46:40.239Z",
+                      "title": "Created Date",
+                    },
+                    Object {
+                      "content": "2021-11-30T14:46:40.239Z",
+                      "title": "Last Modified",
+                    },
+                  ],
+                  "treeBranch": Array [
+                    "60c122e97829820035675d14",
+                  ],
+                },
+                "hasChildren": true,
+                "id": "61a639509b41860036fc34c2",
+                "isExpanded": false,
+              },
+              "61a639589b41860036fc34c4": Object {
+                "children": Array [],
+                "data": Object {
+                  "menuItems": Array [
+                    Object {
+                      "caption": "Rename",
+                      "id": "61a639589b41860036fc34c4-0",
+                      "onClick": [Function],
+                      "type": "item",
+                    },
+                    Object {
+                      "caption": "Duplicate",
+                      "id": "61a639589b41860036fc34c4-1",
+                      "onClick": [Function],
+                      "type": "item",
+                    },
+                    Object {
+                      "caption": "Delete",
+                      "id": "61a639589b41860036fc34c4-2",
+                      "onClick": [Function],
+                      "type": "item",
+                    },
+                  ],
+                  "title": "b",
+                  "tooltipItems": Array [
+                    Object {
+                      "content": "b",
+                      "title": "Name",
+                    },
+                    Object {
+                      "content": "Test Test, admin@sisense.com",
+                      "title": "Owner",
+                    },
+                    Object {
+                      "content": "2021-11-30T14:46:48.425Z",
+                      "title": "Created Date",
+                    },
+                    Object {
+                      "content": "2021-11-30T14:46:48.425Z",
+                      "title": "Last Modified",
+                    },
+                  ],
+                  "treeBranch": Array [
+                    "60c122e97829820035675d14",
+                  ],
+                },
+                "hasChildren": true,
+                "id": "61a639589b41860036fc34c4",
+                "isExpanded": false,
+              },
+              "61a7fa0e9b41860036fc34eb": Object {
+                "children": Array [],
+                "data": Object {
+                  "menuItems": Array [
+                    Object {
+                      "caption": "Rename",
+                      "id": "61a7fa0e9b41860036fc34eb-0",
+                      "onClick": [Function],
+                      "type": "item",
+                    },
+                    Object {
+                      "caption": "Duplicate",
+                      "id": "61a7fa0e9b41860036fc34eb-1",
+                      "onClick": [Function],
+                      "type": "item",
+                    },
+                    Object {
+                      "caption": "Delete",
+                      "id": "61a7fa0e9b41860036fc34eb-2",
+                      "onClick": [Function],
+                      "type": "item",
+                    },
+                  ],
+                  "title": "nathaniel - shared with designer",
+                  "tooltipItems": Array [
+                    Object {
+                      "content": "nathaniel - shared with designer",
+                      "title": "Name",
+                    },
+                    Object {
+                      "content": "Test Test, admin@sisense.com",
+                      "title": "Owner",
+                    },
+                    Object {
+                      "content": "2021-12-01T22:41:18.601Z",
+                      "title": "Created Date",
+                    },
+                    Object {
+                      "content": "2021-12-08T13:03:51.615Z",
+                      "title": "Last Modified",
+                    },
+                  ],
+                  "treeBranch": Array [
+                    "6115486fa6ba3e00350c1835",
+                    "619f9d00f341bc0037f5b35b",
+                    "619f9d0cf341bc0037f5b35d",
+                    "61ae39326f928b00363f799b",
+                  ],
+                },
+                "hasChildren": false,
+                "id": "61a7fa0e9b41860036fc34eb",
+                "isExpanded": false,
+              },
+              "61ade2116f928b00363f798d": Object {
+                "children": Array [],
+                "data": Object {
+                  "menuItems": Array [
+                    Object {
+                      "caption": "Rename",
+                      "id": "61ade2116f928b00363f798d-0",
+                      "onClick": [Function],
+                      "type": "item",
+                    },
+                    Object {
+                      "caption": "Duplicate",
+                      "id": "61ade2116f928b00363f798d-1",
+                      "onClick": [Function],
+                      "type": "item",
+                    },
+                    Object {
+                      "caption": "Delete",
+                      "id": "61ade2116f928b00363f798d-2",
+                      "onClick": [Function],
+                      "type": "item",
+                    },
+                  ],
+                  "title": "Govind Test Dashboard 1 (1) (2)",
+                  "tooltipItems": Array [
+                    Object {
+                      "content": "Govind Test Dashboard 1 (1) (2)",
+                      "title": "Name",
+                    },
+                    Object {
+                      "content": "Test Test, admin@sisense.com",
+                      "title": "Owner",
+                    },
+                    Object {
+                      "content": "2021-12-06T10:12:33.560Z",
+                      "title": "Created Date",
+                    },
+                    Object {
+                      "content": "2021-12-06T16:03:38.597Z",
+                      "title": "Last Modified",
+                    },
+                  ],
+                  "treeBranch": Array [
+                    "60c122e97829820035675d14",
+                  ],
+                },
+                "hasChildren": false,
+                "id": "61ade2116f928b00363f798d",
+                "isExpanded": false,
+              },
+              "61ade2116f928b00363f798f": Object {
+                "children": Array [],
+                "data": Object {
+                  "menuItems": Array [
+                    Object {
+                      "caption": "Rename",
+                      "id": "61ade2116f928b00363f798f-0",
+                      "onClick": [Function],
+                      "type": "item",
+                    },
+                    Object {
+                      "caption": "Duplicate",
+                      "id": "61ade2116f928b00363f798f-1",
+                      "onClick": [Function],
+                      "type": "item",
+                    },
+                    Object {
+                      "caption": "Delete",
+                      "id": "61ade2116f928b00363f798f-2",
+                      "onClick": [Function],
+                      "type": "item",
+                    },
+                  ],
+                  "title": "JD snowflake test 3 (1)",
+                  "tooltipItems": Array [
+                    Object {
+                      "content": "JD snowflake test 3 (1)",
+                      "title": "Name",
+                    },
+                    Object {
+                      "content": "Test Test, admin@sisense.com",
+                      "title": "Owner",
+                    },
+                    Object {
+                      "content": "2021-12-06T10:12:33.566Z",
+                      "title": "Created Date",
+                    },
+                    Object {
+                      "content": "2021-12-15T08:12:03.519Z",
+                      "title": "Last Modified",
+                    },
+                  ],
+                  "treeBranch": Array [
+                    "60a326d08968f4002e1b87e1",
+                    "60a326ed8968f4002e1b87e5",
+                    "60a326f88968f4002e1b87e7",
+                  ],
+                },
+                "hasChildren": false,
+                "id": "61ade2116f928b00363f798f",
+                "isExpanded": false,
+              },
+              "61ade2116f928b00363f7993": Object {
+                "children": Array [],
+                "data": Object {
+                  "menuItems": Array [
+                    Object {
+                      "caption": "Rename",
+                      "id": "61ade2116f928b00363f7993-0",
+                      "onClick": [Function],
+                      "type": "item",
+                    },
+                    Object {
+                      "caption": "Duplicate",
+                      "id": "61ade2116f928b00363f7993-1",
+                      "onClick": [Function],
+                      "type": "item",
+                    },
+                    Object {
+                      "caption": "Delete",
+                      "id": "61ade2116f928b00363f7993-2",
+                      "onClick": [Function],
+                      "type": "item",
+                    },
+                  ],
+                  "title": "Steven Sample ECommerce (3)",
+                  "tooltipItems": Array [
+                    Object {
+                      "content": "Steven Sample ECommerce (3)",
+                      "title": "Name",
+                    },
+                    Object {
+                      "content": "Test Test, admin@sisense.com",
+                      "title": "Owner",
+                    },
+                    Object {
+                      "content": "2021-12-06T10:12:33.616Z",
+                      "title": "Created Date",
+                    },
+                    Object {
+                      "content": "2021-12-06T10:12:33.616Z",
+                      "title": "Last Modified",
+                    },
+                  ],
+                  "treeBranch": Array [
+                    "rootFolder",
+                  ],
+                },
+                "hasChildren": false,
+                "id": "61ade2116f928b00363f7993",
+                "isExpanded": false,
+              },
+              "61ae39296f928b00363f7999": Object {
+                "children": Array [],
+                "data": Object {
+                  "menuItems": Array [
+                    Object {
+                      "caption": "Rename",
+                      "id": "61ae39296f928b00363f7999-0",
+                      "onClick": [Function],
+                      "type": "item",
+                    },
+                    Object {
+                      "caption": "Duplicate",
+                      "id": "61ae39296f928b00363f7999-1",
+                      "onClick": [Function],
+                      "type": "item",
+                    },
+                    Object {
+                      "caption": "Delete",
+                      "id": "61ae39296f928b00363f7999-2",
+                      "onClick": [Function],
+                      "type": "item",
+                    },
+                  ],
+                  "title": "New Folder",
+                  "tooltipItems": Array [
+                    Object {
+                      "content": "New Folder",
+                      "title": "Name",
+                    },
+                    Object {
+                      "content": "Test Test, admin@sisense.com",
+                      "title": "Owner",
+                    },
+                    Object {
+                      "content": "2021-12-06T16:24:09.749Z",
+                      "title": "Created Date",
+                    },
+                    Object {
+                      "content": "2021-12-06T16:24:09.749Z",
+                      "title": "Last Modified",
+                    },
+                  ],
+                  "treeBranch": Array [
+                    "6115486fa6ba3e00350c1835",
+                    "619f9d00f341bc0037f5b35b",
+                    "619f9d0cf341bc0037f5b35d",
+                  ],
+                },
+                "hasChildren": true,
+                "id": "61ae39296f928b00363f7999",
+                "isExpanded": false,
+              },
+              "61ae39326f928b00363f799b": Object {
+                "children": Array [
+                  "61a7fa0e9b41860036fc34eb",
+                ],
+                "data": Object {
+                  "menuItems": Array [
+                    Object {
+                      "caption": "Rename",
+                      "id": "61ae39326f928b00363f799b-0",
+                      "onClick": [Function],
+                      "type": "item",
+                    },
+                    Object {
+                      "caption": "Duplicate",
+                      "id": "61ae39326f928b00363f799b-1",
+                      "onClick": [Function],
+                      "type": "item",
+                    },
+                    Object {
+                      "caption": "Delete",
+                      "id": "61ae39326f928b00363f799b-2",
+                      "onClick": [Function],
+                      "type": "item",
+                    },
+                  ],
+                  "title": "New Folder (2)",
+                  "tooltipItems": Array [
+                    Object {
+                      "content": "New Folder (2)",
+                      "title": "Name",
+                    },
+                    Object {
+                      "content": "Test Test, admin@sisense.com",
+                      "title": "Owner",
+                    },
+                    Object {
+                      "content": "2021-12-06T16:24:18.760Z",
+                      "title": "Created Date",
+                    },
+                    Object {
+                      "content": "2021-12-06T16:24:18.760Z",
+                      "title": "Last Modified",
+                    },
+                  ],
+                  "treeBranch": Array [
+                    "6115486fa6ba3e00350c1835",
+                    "619f9d00f341bc0037f5b35b",
+                    "619f9d0cf341bc0037f5b35d",
+                  ],
+                },
+                "hasChildren": true,
+                "id": "61ae39326f928b00363f799b",
+                "isExpanded": false,
+              },
+              "61b129752914f00036ef5764": Object {
+                "children": Array [
+                  "61b129942914f00036ef5766",
+                ],
+                "data": Object {
+                  "menuItems": Array [
+                    Object {
+                      "caption": "Rename",
+                      "id": "61b129752914f00036ef5764-0",
+                      "onClick": [Function],
+                      "type": "item",
+                    },
+                    Object {
+                      "caption": "Duplicate",
+                      "id": "61b129752914f00036ef5764-1",
+                      "onClick": [Function],
+                      "type": "item",
+                    },
+                    Object {
+                      "caption": "Delete",
+                      "id": "61b129752914f00036ef5764-2",
+                      "onClick": [Function],
+                      "type": "item",
+                    },
+                  ],
+                  "title": "Notebook/Git Integration",
+                  "tooltipItems": Array [
+                    Object {
+                      "content": "Notebook/Git Integration",
+                      "title": "Name",
+                    },
+                    Object {
+                      "content": "Test Test, admin@sisense.com",
+                      "title": "Owner",
+                    },
+                    Object {
+                      "content": "2021-12-08T21:53:57.260Z",
+                      "title": "Created Date",
+                    },
+                    Object {
+                      "content": "2021-12-08T21:54:04.744Z",
+                      "title": "Last Modified",
+                    },
+                  ],
+                  "treeBranch": Array [
+                    "rootFolder",
+                  ],
+                },
+                "hasChildren": true,
+                "id": "61b129752914f00036ef5764",
+                "isExpanded": false,
+              },
+              "61b129942914f00036ef5766": Object {
+                "children": Array [],
+                "data": Object {
+                  "menuItems": Array [
+                    Object {
+                      "caption": "Rename",
+                      "id": "61b129942914f00036ef5766-0",
+                      "onClick": [Function],
+                      "type": "item",
+                    },
+                    Object {
+                      "caption": "Duplicate",
+                      "id": "61b129942914f00036ef5766-1",
+                      "onClick": [Function],
+                      "type": "item",
+                    },
+                    Object {
+                      "caption": "Delete",
+                      "id": "61b129942914f00036ef5766-2",
+                      "onClick": [Function],
+                      "type": "item",
+                    },
+                  ],
+                  "title": "Notebook/Git Integration",
+                  "tooltipItems": Array [
+                    Object {
+                      "content": "Notebook/Git Integration",
+                      "title": "Name",
+                    },
+                    Object {
+                      "content": "Test Test, admin@sisense.com",
+                      "title": "Owner",
+                    },
+                    Object {
+                      "content": "2021-12-08T21:54:28.421Z",
+                      "title": "Created Date",
+                    },
+                    Object {
+                      "content": "2021-12-08T21:55:17.582Z",
+                      "title": "Last Modified",
+                    },
+                  ],
+                  "treeBranch": Array [
+                    "61b129752914f00036ef5764",
+                  ],
+                },
+                "hasChildren": false,
+                "id": "61b129942914f00036ef5766",
+                "isExpanded": false,
+              },
+              "61b8f8c22914f00036ef578e": Object {
+                "children": Array [],
+                "data": Object {
+                  "menuItems": Array [
+                    Object {
+                      "caption": "Rename",
+                      "id": "61b8f8c22914f00036ef578e-0",
+                      "onClick": [Function],
+                      "type": "item",
+                    },
+                    Object {
+                      "caption": "Duplicate",
+                      "id": "61b8f8c22914f00036ef578e-1",
+                      "onClick": [Function],
+                      "type": "item",
+                    },
+                    Object {
+                      "caption": "Delete",
+                      "id": "61b8f8c22914f00036ef578e-2",
+                      "onClick": [Function],
+                      "type": "item",
+                    },
+                  ],
+                  "title": "Katherine healthcare",
+                  "tooltipItems": Array [
+                    Object {
+                      "content": "Katherine healthcare",
+                      "title": "Name",
+                    },
+                    Object {
+                      "content": "Test Test, admin@sisense.com",
+                      "title": "Owner",
+                    },
+                    Object {
+                      "content": "2021-12-14T20:04:18.384Z",
+                      "title": "Created Date",
+                    },
+                    Object {
+                      "content": "2021-12-15T08:11:38.990Z",
+                      "title": "Last Modified",
+                    },
+                  ],
+                  "treeBranch": Array [
+                    "612fc771d9c12d0035c3fdd2",
+                  ],
+                },
+                "hasChildren": false,
+                "id": "61b8f8c22914f00036ef578e",
+                "isExpanded": false,
+              },
+              "61b8f8c22914f00036ef5790": Object {
+                "children": Array [],
+                "data": Object {
+                  "menuItems": Array [
+                    Object {
+                      "caption": "Rename",
+                      "id": "61b8f8c22914f00036ef5790-0",
+                      "onClick": [Function],
+                      "type": "item",
+                    },
+                    Object {
+                      "caption": "Duplicate",
+                      "id": "61b8f8c22914f00036ef5790-1",
+                      "onClick": [Function],
+                      "type": "item",
+                    },
+                    Object {
+                      "caption": "Delete",
+                      "id": "61b8f8c22914f00036ef5790-2",
+                      "onClick": [Function],
+                      "type": "item",
+                    },
+                  ],
+                  "title": "Katherine healthcare",
+                  "tooltipItems": Array [
+                    Object {
+                      "content": "Katherine healthcare",
+                      "title": "Name",
+                    },
+                    Object {
+                      "content": "Test Test, admin@sisense.com",
+                      "title": "Owner",
+                    },
+                    Object {
+                      "content": "2021-12-14T20:04:18.649Z",
+                      "title": "Created Date",
+                    },
+                    Object {
+                      "content": "2021-12-14T20:04:21.625Z",
+                      "title": "Last Modified",
+                    },
+                  ],
+                  "treeBranch": Array [
+                    "rootFolder",
+                  ],
+                },
+                "hasChildren": false,
+                "id": "61b8f8c22914f00036ef5790",
+                "isExpanded": false,
+              },
+              "61b9b74f2914f00036ef5799": Object {
+                "children": Array [
+                  "61b9f1382914f00036ef579f",
+                ],
+                "data": Object {
+                  "menuItems": Array [
+                    Object {
+                      "caption": "Rename",
+                      "id": "61b9b74f2914f00036ef5799-0",
+                      "onClick": [Function],
+                      "type": "item",
+                    },
+                    Object {
+                      "caption": "Duplicate",
+                      "id": "61b9b74f2914f00036ef5799-1",
+                      "onClick": [Function],
+                      "type": "item",
+                    },
+                    Object {
+                      "caption": "Delete",
+                      "id": "61b9b74f2914f00036ef5799-2",
+                      "onClick": [Function],
+                      "type": "item",
+                    },
+                  ],
+                  "title": "fold4",
+                  "tooltipItems": Array [
+                    Object {
+                      "content": "fold4",
+                      "title": "Name",
+                    },
+                    Object {
+                      "content": "Test Test, admin@sisense.com",
+                      "title": "Owner",
+                    },
+                    Object {
+                      "content": "2021-12-15T09:37:19.165Z",
+                      "title": "Created Date",
+                    },
+                    Object {
+                      "content": "2021-12-15T09:37:19.165Z",
+                      "title": "Last Modified",
+                    },
+                  ],
+                  "treeBranch": Array [
+                    "60a326d08968f4002e1b87e1",
+                    "60a326ed8968f4002e1b87e5",
+                    "60a326f88968f4002e1b87e7",
+                  ],
+                },
+                "hasChildren": true,
+                "id": "61b9b74f2914f00036ef5799",
+                "isExpanded": false,
+              },
+              "61b9f1382914f00036ef579f": Object {
+                "children": Array [
+                  "61b9f13e2914f00036ef57a1",
+                ],
+                "data": Object {
+                  "menuItems": Array [
+                    Object {
+                      "caption": "Rename",
+                      "id": "61b9f1382914f00036ef579f-0",
+                      "onClick": [Function],
+                      "type": "item",
+                    },
+                    Object {
+                      "caption": "Duplicate",
+                      "id": "61b9f1382914f00036ef579f-1",
+                      "onClick": [Function],
+                      "type": "item",
+                    },
+                    Object {
+                      "caption": "Delete",
+                      "id": "61b9f1382914f00036ef579f-2",
+                      "onClick": [Function],
+                      "type": "item",
+                    },
+                  ],
+                  "title": "fold5",
+                  "tooltipItems": Array [
+                    Object {
+                      "content": "fold5",
+                      "title": "Name",
+                    },
+                    Object {
+                      "content": "Test Test, admin@sisense.com",
+                      "title": "Owner",
+                    },
+                    Object {
+                      "content": "2021-12-15T13:44:24.471Z",
+                      "title": "Created Date",
+                    },
+                    Object {
+                      "content": "2021-12-15T13:44:24.471Z",
+                      "title": "Last Modified",
+                    },
+                  ],
+                  "treeBranch": Array [
+                    "60a326d08968f4002e1b87e1",
+                    "60a326ed8968f4002e1b87e5",
+                    "60a326f88968f4002e1b87e7",
+                    "61b9b74f2914f00036ef5799",
+                  ],
+                },
+                "hasChildren": true,
+                "id": "61b9f1382914f00036ef579f",
+                "isExpanded": false,
+              },
+              "61b9f13e2914f00036ef57a1": Object {
+                "children": Array [],
+                "data": Object {
+                  "menuItems": Array [
+                    Object {
+                      "caption": "Rename",
+                      "id": "61b9f13e2914f00036ef57a1-0",
+                      "onClick": [Function],
+                      "type": "item",
+                    },
+                    Object {
+                      "caption": "Duplicate",
+                      "id": "61b9f13e2914f00036ef57a1-1",
+                      "onClick": [Function],
+                      "type": "item",
+                    },
+                    Object {
+                      "caption": "Delete",
+                      "id": "61b9f13e2914f00036ef57a1-2",
+                      "onClick": [Function],
+                      "type": "item",
+                    },
+                  ],
+                  "title": "fold6",
+                  "tooltipItems": Array [
+                    Object {
+                      "content": "fold6",
+                      "title": "Name",
+                    },
+                    Object {
+                      "content": "Test Test, admin@sisense.com",
+                      "title": "Owner",
+                    },
+                    Object {
+                      "content": "2021-12-15T13:44:30.140Z",
+                      "title": "Created Date",
+                    },
+                    Object {
+                      "content": "2021-12-15T13:44:30.140Z",
+                      "title": "Last Modified",
+                    },
+                  ],
+                  "treeBranch": Array [
+                    "60a326d08968f4002e1b87e1",
+                    "60a326ed8968f4002e1b87e5",
+                    "60a326f88968f4002e1b87e7",
+                    "61b9b74f2914f00036ef5799",
+                    "61b9f1382914f00036ef579f",
+                  ],
+                },
+                "hasChildren": true,
+                "id": "61b9f13e2914f00036ef57a1",
+                "isExpanded": false,
+              },
+              "rootFolder": Object {
+                "children": Array [
+                  "60a326d78968f4002e1b87e3",
+                  "60a326d08968f4002e1b87e1",
+                  "60c122e97829820035675d14",
+                  "6112bea5a6ba3e00350c17fb",
+                  "6115486fa6ba3e00350c1835",
+                  "612fc771d9c12d0035c3fdd2",
+                  "612fc775d9c12d0035c3fdd4",
+                  "61b129752914f00036ef5764",
+                  "60faff8bc5a99b0035101b3b",
+                  "619e6f32f341bc0037f5b323",
+                  "612b5bac7e2d3200362aac05",
+                  "617c1b2810e87300363cd435",
+                  "6180040294078e003665c83f",
+                  "61940d57ca6ca30036c7a6a5",
+                  "619e6338f341bc0037f5b2ef",
+                  "619e633ef341bc0037f5b2f4",
+                  "619e6341f341bc0037f5b2f9",
+                  "61ade2116f928b00363f7993",
+                  "61b8f8c22914f00036ef5790",
+                ],
+                "data": Object {
+                  "menuItems": Array [
+                    Object {
+                      "caption": "Rename",
+                      "id": "rootFolder-0",
+                      "onClick": [Function],
+                      "type": "item",
+                    },
+                    Object {
+                      "caption": "Duplicate",
+                      "id": "rootFolder-1",
+                      "onClick": [Function],
+                      "type": "item",
+                    },
+                    Object {
+                      "caption": "Delete",
+                      "id": "rootFolder-2",
+                      "onClick": [Function],
+                      "type": "item",
+                    },
+                  ],
+                  "title": "rootFolder",
+                  "tooltipItems": Array [
+                    Object {
+                      "content": "rootFolder",
+                      "title": "Name",
+                    },
+                    Object {
+                      "content": "Test Test, admin@sisense.com",
+                      "title": "Owner",
+                    },
+                    Object {
+                      "content": "",
+                      "title": "Created Date",
+                    },
+                    Object {
+                      "content": "",
+                      "title": "Last Modified",
+                    },
+                  ],
+                  "treeBranch": Array [],
+                },
+                "hasChildren": true,
+                "id": "rootFolder",
+                "isExpanded": false,
+              },
+            },
+            "rootId": "rootFolder",
+          }
+        }
+      />
+    </div>
+    <div
+      className="footer"
+    >
+      <div
+        className="wrapper"
+      >
+        <div
+          className="container"
+        >
+          <span
+            className="app-icon app-icon--general-external-link icon clickable"
+            disabled={false}
+            name="general-external-link"
+            onClick={[Function]}
+            onMouseEnter={[Function]}
+            onMouseLeave={[Function]}
+            onMouseOver={[Function]}
+          >
+            <svg
+              className="app-icon__svg"
+              style={
+                Object {
+                  "top": "auto",
+                }
+              }
+            >
+              <use
+                xlinkHref="#general-external-link"
+              />
+            </svg>
+          </span>
+          <span
+            className="app-icon app-icon--general-duplicate icon clickable"
+            disabled={false}
+            name="general-duplicate"
+            onClick={[Function]}
+            onMouseEnter={[Function]}
+            onMouseLeave={[Function]}
+            onMouseOver={[Function]}
+          >
+            <svg
+              className="app-icon__svg"
+              style={
+                Object {
+                  "top": "auto",
+                }
+              }
+            >
+              <use
+                xlinkHref="#general-duplicate"
+              />
+            </svg>
+          </span>
+          <span
+            className="app-icon app-icon--general-copy-to-server icon clickable"
+            disabled={false}
+            name="general-copy-to-server"
+            onClick={[Function]}
+            onMouseEnter={[Function]}
+            onMouseLeave={[Function]}
+            onMouseOver={[Function]}
+          >
+            <svg
+              className="app-icon__svg"
+              style={
+                Object {
+                  "top": "auto",
+                }
+              }
+            >
+              <use
+                xlinkHref="#general-copy-to-server"
+              />
+            </svg>
+          </span>
+          <span
+            className="app-icon app-icon--general-delete icon clickable"
+            disabled={false}
+            name="general-delete"
+            onClick={[Function]}
+            onMouseEnter={[Function]}
+            onMouseLeave={[Function]}
+            onMouseOver={[Function]}
+          >
+            <svg
+              className="app-icon__svg"
+              style={
+                Object {
+                  "top": "auto",
+                }
+              }
+            >
+              <use
+                xlinkHref="#general-delete"
+              />
+            </svg>
+          </span>
+        </div>
+      </div>
+      <span
+        className="headerTitle hint"
+      >
+        0 Dashboards selected
+      </span>
+    </div>
+  </div>
+</div>
+`;

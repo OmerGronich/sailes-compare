@@ -1,0 +1,21 @@
+@import '../../style_styleguide_react/colors';
+
+.container {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 100%;
+	height: 48px;
+	border-bottom: 1px solid $border;
+	padding-right: 10px;
+}
+
+.title {
+	font-size: 13px;
+	display: inline-block;
+	font-weight: 700;
+	color: $highlight;
+	margin-left: 20px;
+	font-family: 'Open Sans', arial, sans-serif;
+	margin-right: 30%;
+}

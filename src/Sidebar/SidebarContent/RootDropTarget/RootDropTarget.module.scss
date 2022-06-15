@@ -1,0 +1,8 @@
+@import '../../../style_styleguide_react/colors.scss';
+
+.isDropTargeted {
+	height: 120px;
+	&.isTargeted {
+		border: 1px dashed $buttonOk;
+	}
+}

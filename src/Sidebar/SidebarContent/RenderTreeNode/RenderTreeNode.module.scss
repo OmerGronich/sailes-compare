@@ -1,0 +1,43 @@
+@import '../../../style_styleguide_react/colors.scss';
+
+.treeNode {
+	background-color: $back;
+	font-weight: 500;
+	color: $wizardFore;
+	min-height: 32px;
+	&:hover {
+		color: $foreHeader;
+		background-color: $selectedItemBackground;
+	}
+	&.clone {
+		color: $forePlaceholder;
+	}
+	&.dragging {
+		height: 32px !important;
+		opacity: 1 !important;
+		box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.3);
+		background-color: $backToolbar;
+	}
+	&.isDropTargetTopNode {
+		border-top: 1px dashed $buttonOk;
+		border-right: 1px dashed $buttonOk;
+		border-left: 1px dashed $buttonOk;
+	}
+	&.isInDropTarget {
+		border-right: 1px dashed $buttonOk;
+		border-left: 1px dashed $buttonOk;
+	}
+	&.isDropTargetBottomNode {
+		border-bottom: 1px dashed $buttonOk;
+	}
+	&.isLoading {
+		opacity: 0.7;
+	}
+	&.isActive {
+		background-color: $highlightListItem;
+		color: $foreHeader;
+	}
+	&.isInActiveFolder {
+		border-left: 2px solid $wizardFore;
+	}
+}

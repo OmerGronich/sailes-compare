@@ -1,0 +1,23 @@
+@import '../../../style_styleguide_react/colors';
+
+.container {
+	display: flex;
+	justify-content: space-around;
+	border-bottom: 1px solid $wizardSeparator;
+	min-height: 39px;
+	margin-top: 8px;
+	padding-bottom: 8px;
+	width: 100%;
+}
+
+.icon {
+	border-radius: 50%;
+	padding: 3px;
+	margin-left: 17px;
+	margin-right: 17px;
+	color: $wizardFore;
+	text-decoration: none;
+	&:hover {
+		background-color: $backIconHovered;
+	}
+}
